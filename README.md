@@ -1,8 +1,3 @@
 # Team-Documentation-Project-
-## A collection of files used for our Documentation Project as a whole. This includes drafts, schedule, and project assignments throughout the semester. 
-Here is what is required for the Read Me. 
-- What the repository is for
-- Who is contributing to it
-- What folders or files are included
-- Where to find important materials
-- How someone should navigate the repository
+## A Guide to Non-Profit Grant Writing
+This repository was formed to organize the workflow process for Documentation Project Group 1's "A Guide to Non-Profit Grant Writing." Contributors include Chloe Brown, Amy Muro, James Rowland, Corey Weber, and Carson Wright. The folders included as of the first week (August 30th-September 5th) are the initial README file and the project-charter.md file. Important materials can be found as branches from the "main" structure. To navigate this repository, assignments occur as branches from the "main" file and are listed in order by date created.
