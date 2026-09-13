@@ -2,7 +2,7 @@
 
 ## Research Purpose Statement
 
-The purpose of our grant documentation research is to improve the accessibility of grant funding and associated materials to a wider audience. The extent of our research expands beyond creating a usable document but rather extends the knowledge base to a greater whole. *Without interrogating how our methods occur, we would not truly understand the needs and goals of our intended audience.* 
+The purpose of our grant documentation research is to improve the accessibility of grant funding and associated materials to a wider audience. The extent of our research expands beyond creating a usable document but, rather, extends the knowledge base to a greater whole. *Without interrogating how our methods occur, we would not truly understand the needs and goals of our intended audience.* 
 
 ## Research Questions
 
