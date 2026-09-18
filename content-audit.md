@@ -4,7 +4,7 @@
 
 ## Further Steps
 
-1. Collect more grant docuentation models and review granting guidelines within the scope of our target organization, a Texas-based nonprofit
+1. Collect more grant documentation models and review granting guidelines within the scope of our target organization, a Texas-based nonprofit
 2. Align our goals with the nonprofit-level workflow to increase cross-comparison
 3. Aggregate and refine user-centered data
 4. Maintain high standards while keeping within reasonable time standards with state requirements
