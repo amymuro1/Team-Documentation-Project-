@@ -4,6 +4,7 @@
 - Explain all jargon and acronyms. This guide is for a general audience.
 - Stick to the active voice and present tense.
 -	First person plural ("we/our") when speaking as the guide writers.
+-	Avoid use of cliches (ex. "at the end of the day", "when all is said and done" etc)
 ## Names & Identities
 - Don't abbreviate names on first use.
 ## Numbers, Statistics, and Dates
