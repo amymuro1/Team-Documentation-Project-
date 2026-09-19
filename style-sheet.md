@@ -14,6 +14,7 @@
 - Use full format dates (i.e September 18, 2026).
  ## Terminology
   - Use consistent terminology throughout guide.
+  - Define specialized grant-writing terminology the **first time it appears**. For example, Letter of Intent(LOI).
   - Maintain a running terminology glossary in guide.
 ## Formatting
 - Use 18 point Open Sans Bold for headings.
@@ -26,3 +27,5 @@
 - Cite all other guides used as a source or model.
 - Sources should be no more than 3-5 years old.
 ## Headings & Structure
+- Use descriptive headings that will tell readers what they will learn, (ex. "Essential Components of a Grant Proposal", instead of "Components")
+## Accessibility 
