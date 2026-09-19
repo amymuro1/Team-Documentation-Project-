@@ -20,8 +20,8 @@
 - Use 18-point Open Sans Bold for headings.
 - Use 14-point Open Sans Bold for subheadings.
 - Use 12-point Open Sans regular for body paragraphs.
-- Document margins are 1 inch.
-- Single line spacing
+- Use 1 inch document margins.
+- Use single line spacing.
 - Use standard circle bullet points for bulleted lists.
 - Use bold for important terms; avoid ALL CAPS. 
 ## Citations & Sources
