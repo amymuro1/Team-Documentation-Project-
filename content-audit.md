@@ -9,7 +9,7 @@
 3. Aggregate and refine user-centered data
 4. Maintain high standards while keeping within reasonable time standards with state requirements
 
-### Materials
+## Materials
 
 1. GitHub
 2. Open Technical Communication textbook
@@ -17,12 +17,16 @@
 4. Reviewing Previous guides
 5. Texas State University Library
 
-### Documentation
+## Documentation
 
 We will publish documentation stages on GitHub to provide collaboration across project workflows.
 
-### Process
+## Process
 
 The documentation guide is based on common grant proposal needs and will cover three sections with additional information if needed: Organizational Information, Proposal Details, and Budget Information. The organizational section will review the applicant's history, overarching goals, current programs, and internal structure, including board, staff, and volunteer demographics. The proposal section will review the project, outlining the community need, planned activities, targeted goals, and evaluation metrics. Finally, the guide concludes with the financial framework, detailing the required budget information to support the request. This is a possible idea process; editing and changing the content will be decided as a team.
+
+## Summary of Content Issues
+
+
 
 
