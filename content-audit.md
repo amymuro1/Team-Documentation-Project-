@@ -12,10 +12,10 @@
 ### Materials
 
 1. GitHub
-2.Open Technical Communication textbook
-3.Online Research
-4.Reviewing Previous guides
-5.Texas State University Library
+2. Open Technical Communication textbook
+3. Online Research
+4. Reviewing Previous guides
+5. Texas State University Library
 
 ### Documentation
 
