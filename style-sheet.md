@@ -28,14 +28,15 @@
 - Cite all other guides used as a source or model.
 - Sources should be no more than 3-5 years old.
 - APA 7th edition, if required by the document.
-## Headings, Images, Figures & Structure
+## Headings, & Structure
 - Use descriptive headings that will tell readers what they will learn (ex., "Essential Components of a Grant Proposal", instead of "Components").
+## Images, & Figures 
 - Use images and figures only when they support or clarify the content.
 - Place visuals near the text they reference or support.
 - Provide short descriptive captions under or next to the images for clarity.
 - Number figures consecutively (ex., Figure 1, Figure 2...).
 - Refer to figures by their number and not by description. (ex., "Figure 1", not "the image next to this."
-- Use consistent heading, style, and size of figures and images.  
+- Use consistent heading, style, and size of figures and images.
 ## Accessibility 
 - Avoid color as the **only** source for communication.
 - Include descriptive link text. 
