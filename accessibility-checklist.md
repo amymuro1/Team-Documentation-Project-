@@ -1,0 +1,17 @@
+# Accessibility Checklist
+- All images include descriptive alt text.
+- Any charts, figures, or diagrams have detailed descriptions.
+- Buttons and links in guide have semantic names.
+- Content is structured semantically, linearly, and contains consistent navigation options.
+- Information is not conveyed only through color.
+- Any use of color is color-blind friendly.
+- Text contrast ratio is readable (4.5: for normal text and 3:1 for large text).
+- Text can be resized up to twice as big without loss of readability.
+- Limit images containing text.
+- Content reorganizes into a single column when zoomed in (i.e doesn't require horizontal scrolling)
+- Text spacing can be adjusted without hurting content.
+- Guide can be operated with use of just a keyboard.
+- Navigable links that allow user to skip to content.
+- Pages and headings have descriptive and unique titles.
+- Guide is set up for auto-translation (i.e page language is marked as English)
+- Guide is optimized for mobile viewing.
