@@ -85,6 +85,16 @@ Logo/Project Name:
 -Remove any confidential or personal information if using screenshots.
 ## Check For This Before Adding An Image:
 
+```mermaid
+flowchart LR
+    A["1. PURPOSE<br>Does this help the reader?"]
+    --> B["2. CLARITY<br>Can they easily see what matters?"]
+    --> C["3. AUDIENCE<br>Will a beginner understand?"]
+    --> D["4. ACCESSIBILITY<br>Can everyone access the image?"]
+    --> E["5. CONTEXT<br>Does the image make sense with the surrounding text?"]
+    --> F["✓ USE IT"]
+```
+
 
 
 # Accessibility Checklist
