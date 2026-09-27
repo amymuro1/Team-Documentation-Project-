@@ -1,10 +1,15 @@
-# Page or Topic Template
+# Design System Guide
+
+
+
+
+## Page or Topic Template
 
 This draft template is a possible page or topic template for our team’s grant writing project. It can be adjusted as we refine the final style. Once finalized, the structure can be filled out and applied directly to our website or final document.
 
 
 
-## Explanation of Template
+### Explanation of Template
 
 - Header & Navigation - first thing visitors will see
 
@@ -34,7 +39,7 @@ This draft template is a possible page or topic template for our team’s grant 
 
 - Logo/Project Name: image of the project/name
 
-## Blank Template
+### Blank Template
 
 Header & Navigation 
 
@@ -68,8 +73,8 @@ Logo/Project Name:
 
 
 
-# Image & Screenshot Rules
-## Image & Screenshot Design
+## Image & Screenshot Rules
+### Image & Screenshot Design
 - Add images around or near by the surrounding text it supports, or references.
 - Refrain from using more than 3 images per section, aim for about 1-3 images.
 - Keep image sizes, borders and captions consistent throughout the website. For example, if captions are 12pt Times New Roman, ensure all captions are.
@@ -77,13 +82,13 @@ Logo/Project Name:
 - Use boxes, or arrows to point at specific information within the screenshot or image. 
 - Leave white space between the image and text. 
 - Include clickable images, if needed.
-## Image & Screenshot Content 
+### Image & Screenshot Content 
 - Use images only when they clarify or support the surrounding text.
 - If using a pdf, or referencing a longer piece of work, screenshot the specific section you are referring to, if needed.
 - Use screenshots to demonstrate where the audience can find important information or complete a task.
 -Include descriptive captions under or around the images.
 -Remove any confidential or personal information if using screenshots.
-## Check For This Before Adding An Image:
+### Check For This Before Adding An Image:
 
 ```mermaid
 flowchart LR
@@ -97,7 +102,7 @@ flowchart LR
 
 
 
-# Accessibility Checklist
+## Accessibility Checklist
 - All images include descriptive alt text.
 - Any charts, figures, or diagrams have detailed descriptions.
 - Buttons and links in guide have semantic names.
