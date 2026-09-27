@@ -1,5 +1,6 @@
 # Design System Guide
 
+In our system design, we have the goal of creating a website with navigation elements that can help a user maintain a consistent user experience. As we work through this project, we will be able to refine the way in which it will appear. Below you will find an explanation of our template, the screenhot/image rules and guiding flowchart for decisions, followed by an accessibility checklist to determine the access and usability standards in our revision process. 
 
 
 
