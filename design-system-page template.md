@@ -2,17 +2,17 @@
 
 In our system design, we have the goal of creating a website with navigation elements that can help a user maintain a consistent user experience. As we work through this project, we will be able to refine the way in which it will appear. Below you will find an explanation of our template, the screenhot/image rules and guiding flowchart for decisions, followed by an accessibility checklist to determine the access and usability standards in our revision process. 
 
-Font Choices will be decided based on information provided by SiteImprove at https://www.siteimprove.com/glossary/accessible-fonts/
+NOTE: **Font Choices** will be decided based on information provided by SiteImprove at https://www.siteimprove.com/glossary/accessible-fonts/
 
-Heading Level 1 (TBD) 25+ pt
+**Heading Level 1** (TBD) 25+ pt
 
-Heading Level 2 (TBD) between 20-25pt
+**Heading Level 2** (TBD) between 20-25pt
 
-Heading Level 3 (TBD) between 15-20pt
+**Heading Level 3** (TBD) between 15-20pt
 
-Body Text Times New Roman 12pt
+**Body Text** Times New Roman 12pt
 
-Colors for our site will be based on Texas State Branding Guidelines at https://brand.txst.edu/visual-identity/colors.html
+NOTE: **Colors** for our site will be based on Texas State Branding Guidelines at https://brand.txst.edu/visual-identity/colors.html
 
 
 ## Page or Topic Template
