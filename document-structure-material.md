@@ -146,6 +146,7 @@ ___
 
 > **"Use the Budget Forms to provide the organizational financial information and the program or project budget, both income and expenses.** Use this section below to indicate what funding you have received from other foundations, and from which other foundations you plan to seek funding. Describe any unusual or special circumstances and provide an explanation/justification of funding request and the amount."
 
+___
 
 Examples
 
