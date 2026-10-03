@@ -138,4 +138,8 @@ ___
     > "Use this space to provide any additional information that you feel would be relevant to this grant request that is not covered in the sections above or respond to any other questions an individual grant maker may have."
 
   
- #### Budget Information
+#### Budget Information
+
+*As mentioned in the description in the "Common Proposal Form" document, the following elements pertain to this section:*
+
+> **"Use the Budget Forms to provide the organizational financial information and the program or project budget, both income and expenses.** Use this section below to indicate what funding you have received from other foundations, and from which other foundations you plan to seek funding. Describe any unusual or special circumstances and provide an explanation/justification of funding request and the amount."
