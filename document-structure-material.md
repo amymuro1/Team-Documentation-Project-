@@ -87,7 +87,7 @@ ___
 
 3. Programs and Services (briefly describe your organization's programs and services)
 
-   Programs and services are what your organization accomplishes as an organization. For example, your organization could be a baskeball organization that hosts intermural basketball leagues at a local recreation center for at-risk youth. The **program** you provide is the basketball league that helps youth keep out of more dangerous activities and allows friendship and role models. Programs ultimately provide for a need and are developed to address a problem at the organizational level. Another example could be provideding books for an underserved demographic in a local county or neighborhood.
+   Programs and services are what your organization accomplishes as an organization. For example, your organization could be a baskeball organization that hosts intermural basketball leagues at a local recreation center for at-risk youth. The **program** you provide is the basketball league that helps youth keep out of more dangerous activities and allows friendship and role models. Programs ultimately provide for a need and are developed to address a problem at the organizational level. Another example could be providing books for an underserved demographic in a local county or neighborhood. A **service** can include things like vaccination clinics for animals, free lunch for underserved community members, or free legal aide for those who cannot afford traditional services. Services are what your organization provides actionably or as direct support to the community you serve. 
 
 4. Organizationational Structure (board, staff, volunteers)
 
