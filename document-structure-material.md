@@ -85,4 +85,10 @@ ___
 
   **Note:** There are short-term and long-term goals and objectives. Use these as a means of tracking your progress and it will help keep the project on track.
 
+3. Programs and Services (briefly describe your organization's programs and services)
 
+   Programs and services are what your organization accomplishes as an organization. For example, your organization could be a baskeball organization that hosts intermural basketball leagues at a local recreation center for at-risk youth. The **program** you provide is the basketball league that helps youth keep out of more dangerous activities and allows friendship and role models. Programs ultimately provide for a need and are developed to address a problem at the organizational level. Another example could be provideding books for an underserved demographic in a local county or neighborhood.
+
+4. Organizationational Structure (board, staff, volunteers)
+
+   When creating a nonprofit, there is typically a **board of directors** that helps manage and keep track of what is occuring within your organization. These can be community leaders, field specialists, or dedicated members of your organization that serve in an executive capacity. **Staff** includes anyone in your organization who receives funding, be it full-time or part-time employment. If they are making income from the organization, they are likely staff (though some organizations may fund their board members as well). 
