@@ -91,4 +91,8 @@ ___
 
 4. Organizationational Structure (board, staff, volunteers)
 
-   When creating a nonprofit, there is typically a **board of directors** that helps manage and keep track of what is occuring within your organization. These can be community leaders, field specialists, or dedicated members of your organization that serve in an executive capacity. **Staff** includes anyone in your organization who receives funding, be it full-time or part-time employment. If they are making income from the organization, they are likely staff (though some organizations may fund their board members as well). 
+   When creating a nonprofit, there is typically a **board of directors** that helps manage and keep track of what is occuring within your organization. These can be community leaders, field specialists, or dedicated members of your organization that serve in an executive capacity. **Staff** includes anyone in your organization who receives funding, be it full-time or part-time employment. If they are making income from the organization, they are likely staff (though some organizations may fund their board members as well). **Volunteers** include anyone who is contributing their time and efforts to the organization. These are unpaid positions.
+   
+**Notes:**
+ a. It is crucial to organize your hierarchy of organizational structure because this affects later information including the "Budget Information."
+ b. Diversity data may be used to provide organization structure in some cases. Review grant requirements carefully for your specific conditions. 
