@@ -16,8 +16,9 @@ This document will provide the steps for a traditional grant documentation forma
 
 *This document is a Word (.docx) document converted to Markdown
 
-## **COMMON PROPOSAL FORM**
+___
 
+## **COMMON PROPOSAL FORM**
 
 ### **FULL PROPOSAL NARRATIVE**
 
@@ -63,3 +64,25 @@ If you are requesting general operating support, provide information about your 
 **Use the Budget Forms to provide the organizational financial information and the program or project budget, both income and expenses.** Use this section below to indicate what funding you have received from other foundations, and from which other foundations you plan to seek funding. Describe any unusual or special circumstances and provide an explanation/justification of funding request and the amount.
 
 Narrative:
+
+___ 
+
+## Documentation Guidance
+
+### What do these sections mean?
+
+#### Organizational Information
+
+1. Organization History
+   
+   The organizational history allows for the grant applicant to provide background into their organization. Questions that apply to organizational history include the year your organization was founded, what motivated this organization to form, and who you are as an organization. This is how the grant organization is able to understand you and your organization.
+
+2. Organizational Goals and Objectives (Short-Term and/or Long Term)
+
+   The ***goals*** of your organization are broad and allow for your vision to come to life. What is the overarching concept or goal that you wish for your orgination to achieve? Explain what you are *wanting* to achieve.
+
+   The ***objectives*** of your organization are measurable, timely, and specific. Objectives allow for the granting organization to understand what you are with your planning process and show that there is an action plan rather than an idea or concept. It is important to distinguish that objectives must be completed within the grant funding period. The objectives explain *how* you will achieve your results.
+
+  **Note:** There are short-term and long-term goals and objectives. Use these as a means of tracking your progress and it will help keep the project on track.
+
+
