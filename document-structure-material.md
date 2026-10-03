@@ -45,7 +45,7 @@ Project Name (if any): If no program or project name, leave blank
 
 ### **Proposal Information**
 
-If you are requesting general operating support, provide information about your organizations overall purpose, operating needs, and strategic plans.)
+If you are requesting general operating support, provide information about your organizations overall purpose, operating needs, and strategic plans.
 
 5\. Description of Program/Project:
 
@@ -91,10 +91,51 @@ ___
 
 4. Organizationational Structure (board, staff, volunteers)
 
-   When creating a nonprofit, there is typically a **board of directors** that helps manage and keep track of what is occuring within your organization. These can be community leaders, field specialists, or dedicated members of your organization that serve in an executive capacity. **Staff** includes anyone in your organization who receives funding, be it full-time or part-time employment. If they are making income from the organization, they are likely staff (though some organizations may fund their board members as well). **Volunteers** include anyone who is contributing their time and efforts to the organization. These are unpaid positions.
+   When creating a nonprofit, there is typically a **Board of Directors** that helps manage and keep track of what is occuring within your organization. These can be community leaders, field specialists, or dedicated members of your organization that serve in an executive capacity. **Staff** includes anyone in your organization who receives funding, be it full-time or part-time employment. If they are making income from the organization, they are likely staff (though some organizations may fund their board members as well). **Volunteers** include anyone who is contributing their time and efforts to the organization. These are unpaid positions.
    
 **Notes:**
 
  a. It is crucial to organize your hierarchy of organizational structure because this affects later information including the "Budget Information."
 
  b. Diversity data may be used to provide organization structure in some cases. Review grant requirements carefully for your specific conditions. 
+
+ #### Proposal Information
+
+5. Description of Program/Project
+
+   *As mentioned in the description in the "Common Proposal Form" document, the following elements pertain to this section:*
+
+   > "If you are requesting general operating support, provide information about your organizations overall purpose, operating needs, and strategic plans."
+
+6. Description of Need
+
+   *As mentioned in the description in the "Common Proposal Form" document, the following elements pertain to this section:*
+
+   > "What is the issue you plan to address? What is your approach? What research supports your idea? How does your strategy differ from others in the field?"
+
+7. Specific Activities
+
+   *As mentioned in the description in the "Common Proposal Form" document, the following elements pertain to this section:*
+
+   > "Include information about service delivery and/or timeline."
+
+8. Objectives and Goals for this Request
+
+   *As mentioned in the description in the "Common Proposal Form" document, the following elements pertain to this section:*
+
+   > "How will this grant strengthen the organization, address the issues, make improvements, or achieve success?"
+
+9. Evaluation
+
+   *As mentioned in the description in the "Common Proposal Form" document, the following elements pertain to this section:*
+
+   > "What are the anticipated outcomes and how will you know if you are successful?"
+
+10. Other
+
+    *As mentioned in the description in the "Common Proposal Form" document, the following elements pertain to this section:*
+
+    > "Use this space to provide any additional information that you feel would be relevant to this grant request that is not covered in the sections above or respond to any other questions an individual grant maker may have."
+
+  
+ #### Budget Information
