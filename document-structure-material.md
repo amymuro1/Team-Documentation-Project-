@@ -101,11 +101,13 @@ ___
 
  #### Proposal Information
 
+  *As mentioned in the description in the "Common Proposal Form" document, the following elements pertain to this section:*
+  
+   > "If you are requesting general operating support, provide information about your organizations overall purpose, operating needs, and strategic plans."
+
 5. Description of Program/Project
 
-   *As mentioned in the description in the "Common Proposal Form" document, the following elements pertain to this section:*
-
-   > "If you are requesting general operating support, provide information about your organizations overall purpose, operating needs, and strategic plans."
+   Here is where you describe what is going into your project of which you are requesting funding. Provide an overview of the project/program purpose. Think of this as an extension of the "Programs and Services" section, except this section pertains to the program/project in which you are requesting funding. 
 
 6. Description of Need
 
