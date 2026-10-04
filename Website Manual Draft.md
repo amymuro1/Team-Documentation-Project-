@@ -10,6 +10,23 @@
 
 </div>
 
+## Table of Contents
+
+- [Base Documentation](#base-documentation)
+- [Common Proposal Form](#common-proposal-form)
+  - [Full Proposal Narrative](#full-proposal-narrative)
+  - [Organizational Information](#organizational-information)
+  - [Proposal Information](#proposal-information)
+  - [Budget Information](#budget-information)
+- [Grant Application Guidance & Section Breakdown](#grant-application-guidance--section-breakdown)
+  - [What Do These Requirements Mean?](#what-do-these-requirements-mean)
+    - [Organizational Information](#organizational-information-1)
+    - [Proposal Information](#proposal-information-1)
+- [Grant Writing in Action](#grant-writing-in-action)
+  - [Pre-Award](#pre-award)
+  - [Repeating Themes](#repeating-themes)
+  - [Life cycles](#life-cycles)
+
 ## Base Documentation
 
 ### ***Note to Reader:*** ###
@@ -133,7 +150,7 @@ Below, we have provided extended descriptions for each section outlined in the *
     > "Use this space to provide any additional information that you feel would be relevant to this grant request that is not covered in the sections above or respond to any other questions an individual grant maker may have."
 ---
 
-# Examples
+# Grant Writing in Action
 
 ## Pre-Award
 
