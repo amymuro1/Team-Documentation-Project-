@@ -5,7 +5,7 @@
 
 </div>
 <div align="center">
-
+   
 # Non-Profit Grant Writing Guide
 
 </div>
@@ -141,21 +141,13 @@ Purpose: Pre-award grant work involves completing the application and refining i
 
 **Items needed based on this application**
 
-Proposed training plan and goals, including the plan to attend a formal instructor/trainer program 
-Description of Needs
--Volunteer history 
-- Organization History
-Information about your teaching and training
-- Activities
-Brief business plan for the next two to three years, including professional goals
-- Evaluation
-Detailed budget of how the grant money will be used
-- Budget
-Competition scores from the past four years
- - Evaluation
-Two letters of recommendation from your peers
- - Evaluation
-Current content: Gaps: Currency/consistency concerns: User needs:
+* Proposed training plan and goals, including the plan to attend a formal instructor/trainer program - Description of Needs
+* Volunteer history - Organization History
+* Information about your teaching and training- Activities
+* Brief business plan for the next two to three years, including professional goals - Evaluation
+* Detailed budget of how the grant money will be used- Budget
+* Competition scores from the past four years - Evaluation
+* Two letters of recommendation from your peers - Evaluation
 
 Website:
 
@@ -171,7 +163,6 @@ Description of Need: The core problem or community issue your project addresses.
 Activities: The specific steps, programs, or actions you will execute. Evaluation: How you will measure success and track program outcomes. 
 Budget: A clear financial plan showing projected expenses and funding requests.
 
-Current content: Gaps: Currency/consistency concerns: User needs:
 
 ## Life cycles
 
@@ -183,7 +174,6 @@ Award Phase: the agency reviews the application and enters legal bindings
 
 Post -award: work is started based on the dates in the applications, and there are check-ins with the agency that gave the money
 
-Current content: Gaps: Currency/consistency concerns: User needs:
 
 Website:
 
@@ -193,4 +183,4 @@ This defines a website and a PDF of an application. The longer application is fi
 
 https://www.bankofamerica.com/philanthropic/foundation/?fnId=300
 
-Here is the PDF - https://www.bankofamerica.com/content/documents/philanthropic/Online_Application_Help.pdf
+Here is the PDF: https://www.bankofamerica.com/content/documents/philanthropic/Online_Application_Help.pdf
