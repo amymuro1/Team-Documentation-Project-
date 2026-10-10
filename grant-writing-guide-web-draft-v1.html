@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-pt-[env(safe-area-inset-top,0px)]">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nonprofit Grant Funding Application Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  // Tailwind theme: fonts and a named color palette (light value + "-dark" value).
+  // Dark mode follows the viewer's system setting (Tailwind's default "media" strategy).
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['"Public Sans"', 'system-ui', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif'],
+          serif: ['"Source Serif 4"', 'Georgia', 'Cambria', 'Times New Roman', 'serif'],
+        },
+        colors: {
+          page: '#F6F8F7',        'page-dark': '#0F1A1C',
+          surface: '#FFFFFF',     'surface-dark': '#162427',
+          ink: '#14272B',         'ink-dark': '#E6EEEC',
+          muted: '#55676B',       'muted-dark': '#93A8AB',
+          line: '#C9D4D2',        'line-dark': '#2A3D40',
+          accent: '#1F6F6B',      'accent-dark': '#6FC2BC',
+          soft: '#DCEBE8',        'soft-dark': '#1D3A3C',
+          banner: '#12363A',      'banner-dark': '#0A2326',
+          'banner-ink': '#F2F6F5',
+        },
+      },
+    },
+  };
+</script>
+</head>
+<body class="font-sans antialiased min-h-screen flex flex-col box-border pt-[env(safe-area-inset-top,0px)] pb-[env(safe-area-inset-bottom,0px)] bg-page text-ink dark:bg-page-dark dark:text-ink-dark">
+
+<!-- Title banner + About button -->
+<header class="bg-banner dark:bg-banner-dark text-banner-ink">
+  <div class="mx-auto max-w-6xl px-4 sm:px-6 py-6 sm:py-8 flex items-start sm:items-center justify-between gap-4">
+    <h1 class="font-serif font-semibold tracking-tight text-3xl sm:text-4xl lg:text-5xl leading-tight">Nonprofit Grant Funding Application Guide</h1>
+    <button id="aboutBtn" type="button"
+      class="shrink-0 rounded-lg border border-banner-ink/50 px-4 py-2 text-sm font-semibold transition-colors motion-reduce:transition-none hover:bg-banner-ink hover:text-banner dark:hover:text-banner-dark focus:outline-none focus-visible:ring-2 focus-visible:ring-banner-ink focus-visible:ring-offset-2 focus-visible:ring-offset-banner dark:focus-visible:ring-offset-banner-dark">
+      About this guide
+    </button>
+  </div>
+</header>
+
+<div class="mx-auto w-full max-w-6xl px-4 sm:px-6 py-6 lg:py-10 flex-1 flex flex-col lg:flex-row gap-6 lg:gap-12">
+
+  <!-- Table of contents / nav -->
+  <aside class="lg:w-72 lg:shrink-0">
+    <nav aria-label="Guide sections" class="lg:sticky lg:top-6">
+      <p class="hidden lg:block text-sm font-semibold text-muted dark:text-muted-dark mb-3">In this guide</p>
+      <ol id="toc" class="flex lg:flex-col gap-1 overflow-x-auto lg:overflow-visible -mx-4 px-4 sm:mx-0 sm:px-0 pb-2 lg:pb-0 border-b lg:border-b-0 border-line dark:border-line-dark"></ol>
+    </nav>
+  </aside>
+
+  <!-- Content -->
+  <main class="flex-1 min-w-0">
+    <article id="content" tabindex="-1" class="bg-surface dark:bg-surface-dark border border-line dark:border-line-dark rounded-xl px-5 sm:px-10 py-8 sm:py-10 min-h-[28rem] focus:outline-none"></article>
+    <div class="mt-5 flex items-center justify-between gap-3">
+      <button id="prevBtn" type="button" class="rounded-lg border border-line dark:border-line-dark bg-surface dark:bg-surface-dark px-4 py-2 text-sm font-medium transition-colors motion-reduce:transition-none hover:border-accent hover:text-accent dark:hover:border-accent-dark dark:hover:text-accent-dark focus:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-accent-dark disabled:opacity-40 disabled:pointer-events-none"></button>
+      <button id="nextBtn" type="button" class="rounded-lg bg-accent dark:bg-accent-dark text-page dark:text-page-dark px-4 py-2 text-sm font-semibold transition-opacity motion-reduce:transition-none hover:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-accent-dark focus-visible:ring-offset-2 focus-visible:ring-offset-page dark:focus-visible:ring-offset-page-dark disabled:opacity-40 disabled:pointer-events-none"></button>
+    </div>
+  </main>
+</div>
+
+<!-- About dialog -->
+<dialog id="aboutDialog" class="rounded-xl bg-surface dark:bg-surface-dark text-ink dark:text-ink-dark border border-line dark:border-line-dark p-0 w-[min(32rem,calc(100%-2rem))] shadow-2xl backdrop:bg-black/60">
+  <div class="p-6 sm:p-8">
+    <h2 class="font-serif text-2xl font-semibold">About this guide</h2>
+    <p class="mt-3 font-serif text-[1.05rem] leading-relaxed text-muted dark:text-muted-dark">The following document is an overview of the common major components of a grant application.</p>
+    <p class="mt-3 font-serif text-[1.05rem] leading-relaxed text-muted dark:text-muted-dark">This document will provide the steps for a traditional grant documentation format.</p>
+    <div class="mt-6 flex justify-end">
+      <button id="closeAbout" type="button" class="rounded-lg bg-accent dark:bg-accent-dark text-page dark:text-page-dark px-4 py-2 text-sm font-semibold hover:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-accent-dark focus-visible:ring-offset-2 focus-visible:ring-offset-surface dark:focus-visible:ring-offset-surface-dark">Close</button>
+    </div>
+  </div>
+</dialog>
+
+<script>
+  // Small helpers used inside the content below
+  const chip = t => `<span class="ml-2 inline-block rounded-full bg-soft dark:bg-soft-dark px-2.5 py-0.5 font-sans text-xs font-semibold text-accent dark:text-accent-dark whitespace-nowrap align-middle">${t}</span>`;
+  const link = u => `<a href="${u}" target="_blank" rel="noopener noreferrer">${u}</a>`;
+
+  // Each section is one H2 from the source document.
+  const sections = [
+    {
+      id: 'base-documentation',
+      title: 'Base Documentation',
+      navHeadings: [],
+      html: `
+        <h3>Note to Reader:</h3>
+        <p>Welcome to your first steps in learning to apply for grant application. <strong><em>We are glad you are here!</em></strong> Below we have provided a short description of some preliminary notes to review prior to starting an application:</p>
+        <h4>The following document is an overview of the common major components of a grant application.</h4>
+        <p>It is important to note that many organizations may require a Letter of Interest or Letter of Inquiry (both use the acronym LOI) to gauge your readiness for grant application or if your needs match what the granting organization can provide.</p>
+        <p>It is crucial to review any preliminary instructions provided by the granting organization to which you wish to apply prior to grant application. When approaching a grant application, compiling the information provided in this document allows for ease of use that can be integrated into your grant application. Grants, like book genres, have a variety of instances where they fit a specific situation. For example, granting organizations may integrate their own software that requires this same information but to be manually entered into their system. This document will provide the steps for a traditional grant documentation format.</p>`
+    },
+    {
+      id: 'common-proposal-form',
+      title: 'COMMON PROPOSAL FORM',
+      html: `
+        <h3>FULL PROPOSAL NARRATIVE</h3>
+        <p>The Full Proposal Narrative is to provide a complete description of the request. This is a suggested format that includes the most common information asked by foundations and corporate grant makers. Read the Common Proposal Instructions before you begin. We strongly recommend that you check the specific guidelines developed by the funder before completing this form. Please input text in shaded boxes. <strong>The suggested limit is eight (8) pages.</strong></p>
+        <p><strong>Request to:</strong> Enter the name of the foundation or corporation</p>
+        <p><strong>Organization Name:</strong></p>
+        <p><strong>Project Name (if any):</strong> If no program or project name, leave blank</p>
+
+        <h3>Organizational Information</h3>
+        <ol>
+          <li><strong>Organization's History:</strong></li>
+          <li><strong>Organizational Goals and Objectives</strong> (short-term and/or long-term):</li>
+          <li><strong>Programs and Services</strong> (briefly describe your organization's programs and services):</li>
+          <li><strong>Organizational Structure</strong> (board, staff, volunteers):</li>
+        </ol>
+        <ul>
+          <li><em>A Diversity Data Form may be used to provide this data.</em></li>
+        </ul>
+
+        <h3>Proposal Information</h3>
+        <p>If you are requesting general operating support, provide information about your organization's overall purpose, operating needs, and strategic plans.</p>
+        <ol start="5">
+          <li><strong>Description of Program/Project:</strong></li>
+          <li><strong>Description of Need</strong> (What is the issue you plan to address? What is your approach? What research supports your idea? How does your strategy differ from others in the field?):</li>
+          <li><strong>Specific Activities</strong> (Include information about service delivery and/or timeline.):</li>
+          <li><strong>Objectives and Goals for this Request</strong> (How will this grant strengthen the organization, address the issues, make improvements, or achieve success?):</li>
+          <li><strong>Evaluation</strong> (What are the anticipated outcomes and how will you know if you are successful?):</li>
+          <li><strong>Other</strong> (Use this space to provide any additional information that you feel would be relevant to this grant request that is not covered in the sections above or respond to any other questions an individual grant maker may have.):</li>
+        </ol>
+
+        <h3>Budget Information</h3>
+        <p><strong>Use the Budget Forms to provide the organizational financial information and the program or project budget, both income and expenses.</strong> Use this section below to indicate what funding you have received from other foundations, and from which other foundations you plan to seek funding. Describe any unusual or special circumstances and provide an explanation/justification of funding request and the amount.</p>
+        <p><strong>Narrative:</strong></p>`
+    },
+    {
+      id: 'documentation-guidance',
+      title: 'Documentation Guidance',
+      navHeadings: ['Organizational Information', 'Proposal Information', 'Budget Information'],
+      html: `
+        <h3>What do these sections mean?</h3>
+
+        <h4>Organizational Information</h4>
+        <ol>
+          <li>
+            <strong>Organization History</strong>
+            <p>The organizational history allows for the grant applicant to provide background into their organization. Questions that apply to organizational history include the year your organization was founded, what motivated this organization to form, and who you are as an organization. This is how the grant organization is able to understand you and your organization.</p>
+          </li>
+          <li>
+            <strong>Organizational Goals and Objectives (Short-Term and/or Long Term)</strong>
+            <p>The <strong><em>goals</em></strong> of your organization are broad and allow for your vision to come to life. What is the overarching concept or goal that you wish for your organization to achieve? Explain what you are <em>wanting</em> to achieve.</p>
+            <p>The <strong><em>objectives</em></strong> of your organization are measurable, timely, and specific. Objectives allow for the granting organization to understand what you are with your planning process and show that there is an action plan rather than an idea or concept. It is important to distinguish that objectives must be completed within the grant funding period. The objectives explain <em>how</em> you will achieve your results.</p>
+            <p><strong>Note:</strong> There are short-term and long-term goals and objectives. Use these as a means of tracking your progress and it will help keep the project on track.</p>
+          </li>
+          <li>
+            <strong>Programs and Services (briefly describe your organization's programs and services)</strong>
+            <p>Programs and services are what your organization accomplishes as an organization. For example, your organization could be a basketball organization that hosts intramural basketball leagues at a local recreation center for at-risk youth. The <strong>program</strong> you provide is the basketball league that helps youth keep out of more dangerous activities and allows friendship and role models. Programs ultimately provide for a need and are developed to address a problem at the organizational level. Another example could be providing books for an underserved demographic in a local county or neighborhood. A <strong>service</strong> can include things like vaccination clinics for animals, free lunch for underserved community members, or free legal aid for those who cannot afford traditional services. Services are what your organization provides actionably or as direct support to the community you serve.</p>
+          </li>
+          <li>
+            <strong>Organizational Structure (board, staff, volunteers)</strong>
+            <p>When creating a nonprofit, there is typically a <strong>Board of Directors</strong> that helps manage and keep track of what is occurring within your organization. These can be community leaders, field specialists, or dedicated members of your organization that serve in an executive capacity. <strong>Staff</strong> includes anyone in your organization who receives funding, be it full-time or part-time employment. If they are making income from the organization, they are likely staff (though some organizations may fund their board members as well). <strong>Volunteers</strong> include anyone who is contributing their time and efforts to the organization. These are unpaid positions.</p>
+          </li>
+        </ol>
+        <p><strong>Notes:</strong></p>
+        <ol class="!list-[lower-alpha]">
+          <li>It is crucial to organize your hierarchy of organizational structure because this affects later information including the "Budget Information."</li>
+          <li>Diversity data may be used to provide organization structure in some cases. Review grant requirements carefully for your specific conditions.</li>
+        </ol>
+
+        <h4>Proposal Information</h4>
+        <p><em>As mentioned in the description in the "Common Proposal Form" document, the following elements pertain to this section:</em></p>
+        <blockquote>"If you are requesting general operating support, provide information about your organization's overall purpose, operating needs, and strategic plans."</blockquote>
+        <ol start="5">
+          <li>
+            <strong>Description of Program/Project</strong>
+            <p>Here is where you describe what is going into your project of which you are requesting funding. Provide an overview of the project/program purpose. Think of this as an extension of the "Programs and Services" section, except this section pertains to the program/project in which you are requesting funding.</p>
+          </li>
+          <li>
+            <strong>Description of Need</strong>
+            <p><em>As mentioned in the description in the "Common Proposal Form" document, the following elements pertain to this section:</em></p>
+            <blockquote>"What is the issue you plan to address? What is your approach? What research supports your idea? How does your strategy differ from others in the field?"</blockquote>
+          </li>
+          <li>
+            <strong>Specific Activities</strong>
+            <p><em>As mentioned in the description in the "Common Proposal Form" document, the following elements pertain to this section:</em></p>
+            <blockquote>"Include information about service delivery and/or timeline."</blockquote>
+          </li>
+          <li>
+            <strong>Objectives and Goals for this Request</strong>
+            <p><em>As mentioned in the description in the "Common Proposal Form" document, the following elements pertain to this section:</em></p>
+            <blockquote>"How will this grant strengthen the organization, address the issues, make improvements, or achieve success?"</blockquote>
+          </li>
+          <li>
+            <strong>Evaluation</strong>
+            <p><em>As mentioned in the description in the "Common Proposal Form" document, the following elements pertain to this section:</em></p>
+            <blockquote>"What are the anticipated outcomes and how will you know if you are successful?"</blockquote>
+          </li>
+          <li>
+            <strong>Other</strong>
+            <p><em>As mentioned in the description in the "Common Proposal Form" document, the following elements pertain to this section:</em></p>
+            <blockquote>"Use this space to provide any additional information that you feel would be relevant to this grant request that is not covered in the sections above or respond to any other questions an individual grant maker may have."</blockquote>
+          </li>
+        </ol>
+
+        <h4>Budget Information</h4>
+        <p><em>As mentioned in the description in the "Common Proposal Form" document, the following elements pertain to this section:</em></p>
+        <blockquote><strong>"Use the Budget Forms to provide the organizational financial information and the program or project budget, both income and expenses.</strong> Use this section below to indicate what funding you have received from other foundations, and from which other foundations you plan to seek funding. Describe any unusual or special circumstances and provide an explanation/justification of funding request and the amount."</blockquote>`
+    },
+    {
+      id: 'Grant Writing In Action',
+      title: 'Grant Writing In Action',
+      html: `
+        <h3>Pre-Award</h3>
+        <p><strong>Purpose:</strong> Pre-award grant work involves completing the application and refining its content to meet specific requirements. This process focuses on key elements such as Organization History, Description of Need, Activities, Evaluation, and Budget. The George Williams Young Professional Fund serves as an example of an animal-focused grant requiring these components, highlighting the core repeating elements a beginner applicant would complete.</p>
+
+        <h3>Award Phase</h3>
+        <p>Applications are selected by the agency that oversees the grant; the process turns into a legal agreement.</p>
+        <p><strong>Agency review:</strong> Before finalizing, the agency may conduct an assessment of the applicant and negotiate minor adjustments to the work or the budget.</p>
+        <p><strong>Notice of Award (NoA) or a grant agreement:</strong> The applicant accepts the documents and signs them; the applicant and the agency enter into a legally binding contract. This agreement outlines the terms, conditions, reporting requirements, and the approved budget.</p>
+
+        <h3>Post-Award Phase</h3>
+        <p>The post-award phase begins once the agreement is signed and funding is officially released. This is where the actual project execution and accountability take place.</p>
+        <p><strong>Work Initiation:</strong> Project work begins in accordance with the timelines, milestones, and deliverables outlined in the approved application and grant agreement. Funds are drawn down as expenses are incurred.</p>
+        <p><strong>Agency Check-Ins &amp; Monitoring:</strong> Throughout the project lifecycle, the agency monitors progress. Recipients must submit regular financial and programmatic performance reports (quarterly or annually) and participate in check-ins or audits to ensure funds are being used effectively.</p>
+
+        <h3>Items needed based on this application</h3>
+        <ul>
+          <li>Proposed training plan and goals, including the plan to attend a formal instructor/trainer program ${chip('Description of Needs')}</li>
+          <li>Volunteer history ${chip('Organization History')}</li>
+          <li>Information about your teaching and training ${chip('Activities')}</li>
+          <li>Brief business plan for the next two to three years, including professional goals ${chip('Evaluation')}</li>
+          <li>Detailed budget of how the grant money will be used ${chip('Budget')}</li>
+          <li>Competition scores from the past four years ${chip('Evaluation')}</li>
+          <li>Two letters of recommendation from your peers ${chip('Evaluation')}</li>
+        </ul>
+        <p>This is the website: ${link('https://www.dressagefoundation.org/grants-and-programs/apply/dressage_instructors/george-williams-fund.html')}</p>
+
+        <h3>Repeating Themes</h3>
+        <p><strong>Purpose:</strong> Repeating elements in grant applications typically include Organization History, Description of Need, Activities, Evaluation, and Budget. These sections outline the key information applicants must provide.</p>
+        <ul>
+          <li><strong>Organization History:</strong> Background details outlining your organization's mission, history, governance structure, and past impact within the community.</li>
+          <li><strong>Description of Need:</strong> A comprehensive explanation of the core problem, data-backed community issue, or service gap that your proposed project addresses.</li>
+          <li><strong>Activities:</strong> The specific steps, implementation timeline, operational programs, or strategic actions your team will execute to fulfill the project goals.</li>
+          <li><strong>Evaluation:</strong> The performance metrics and methodology detailing how you will measure success, track program milestones, and evaluate outcomes.</li>
+          <li><strong>Budget:</strong> A clear financial plan showing projected expenses, itemized operational costs, matching funds, and specific funding requests aligned with the project scope.</li>
+        </ul>
+
+        <h3>Life cycles</h3>
+        <p><strong>Purpose:</strong> Grant writing involves multiple elements across the grant lifecycle. Grants.gov provides a helpful short guide to understanding the various elements that apply to both application preparation and post-award handling.</p>
+        <ul>
+          <li><strong>Pre-award:</strong> announcing opportunities, submitting applications, and reviewing applications</li>
+          <li><strong>Award Phase:</strong> the agency reviews the application and enters legal bindings</li>
+          <li><strong>Post-award:</strong> work is started based on the dates in the applications, and there are check-ins with the agency that gave the money</li>
+        </ul>
+        <p>This is the website: ${link('https://www.grants.gov/learn-grants/grants-101/the-grant-lifecycle')}</p>
+        <p>This defines a website and a PDF of an application. The longer application is filled out in the pre-award stage and then edited. This is a longer example, but elements are the same for Organization History, Description of Need, Activities, Evaluation, and Budget.</p>
+        <p>${link('https://www.bankofamerica.com/philanthropic/foundation/?fnId=300')}</p>
+        <p>Here is the PDF - ${link('https://www.bankofamerica.com/content/documents/philanthropic/Online_Application_Help.pdf')}</p>`
+    },
+  ];
+
+  // ---- Setup ----
+  const slug = t => t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const label = t => {
+    const s = t.replace(/:$/, '');
+    return s === s.toUpperCase() ? s.toLowerCase().replace(/\b\w/g, c => c.toUpperCase()) : s;
+  };
+
+  // Work out which headings the sidebar links to under each section.
+  // Default: every H3. A section can override this with navHeadings (a list of heading texts, H3 or H4).
+  sections.forEach(s => {
+    const doc = new DOMParser().parseFromString('<div>' + s.html + '</div>', 'text/html');
+    const heads = [...doc.querySelectorAll('h3, h4')];
+    const wanted = s.navHeadings
+      ? s.navHeadings.map(t => heads.find(h => h.textContent === t)).filter(Boolean)
+      : heads.filter(h => h.tagName === 'H3');
+    s.children = wanted.map(h => ({
+      text: h.textContent,
+      id: s.id + '-' + slug(h.textContent),
+    }));
+  });
+
+  const toc = document.getElementById('toc');
+  const content = document.getElementById('content');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  let current = 0;
+
+  // Tailwind class strings for the sidebar buttons
+  const navBase = 'w-full whitespace-nowrap lg:whitespace-normal text-left rounded-lg px-3 py-2 text-sm transition-colors motion-reduce:transition-none focus:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-accent-dark lg:border-l-4';
+  const navIdle = 'text-muted dark:text-muted-dark hover:text-ink dark:hover:text-ink-dark hover:bg-soft dark:hover:bg-soft-dark lg:border-transparent';
+  const navActive = 'bg-soft dark:bg-soft-dark text-ink dark:text-ink-dark font-semibold lg:border-accent dark:lg:border-accent-dark';
+  const subNav = 'w-full text-left rounded-md pl-6 pr-3 py-1.5 text-[0.8125rem] leading-snug text-muted dark:text-muted-dark transition-colors motion-reduce:transition-none hover:text-accent dark:hover:text-accent-dark focus:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-accent-dark';
+
+  // Tailwind class string for the article body (styles the tags inside each section)
+  const bodyClasses = [
+    'font-serif text-[1.075rem] leading-[1.75] max-w-[68ch] mt-2',
+    '[&_p]:mt-4',
+    '[&_h3]:mt-10 [&_h3]:scroll-mt-6 [&_h3]:pb-2 [&_h3]:border-b [&_h3]:border-line dark:[&_h3]:border-line-dark [&_h3]:font-serif [&_h3]:text-2xl [&_h3]:font-semibold [&_h3]:leading-snug',
+    '[&_h4]:mt-8 [&_h4]:scroll-mt-6 [&_h4]:font-sans [&_h4]:text-lg [&_h4]:font-semibold [&_h4]:leading-snug',
+    '[&_ul]:mt-4 [&_ul]:pl-5 [&_ul]:list-disc',
+    '[&_ol]:mt-4 [&_ol]:pl-6 [&_ol]:list-decimal',
+    '[&_li]:mt-3 [&_li]:pl-1 [&_li]:marker:text-accent dark:[&_li]:marker:text-accent-dark [&_li]:marker:font-semibold',
+    '[&_li>p]:mt-2',
+    '[&_blockquote]:mt-4 [&_blockquote]:border-l-4 [&_blockquote]:border-accent dark:[&_blockquote]:border-accent-dark [&_blockquote]:pl-4 [&_blockquote]:text-muted dark:[&_blockquote]:text-muted-dark',
+    '[&_strong]:font-semibold',
+    '[&_a]:text-accent dark:[&_a]:text-accent-dark [&_a]:underline [&_a]:underline-offset-2 [&_a]:break-words hover:[&_a]:opacity-80',
+  ].join(' ');
+
+  function renderToc() {
+    toc.innerHTML = '';
+    sections.forEach((s, i) => {
+      const li = document.createElement('li');
+      li.className = 'shrink-0 lg:shrink';
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.textContent = label(s.title);
+      b.className = `${navBase} ${i === current ? navActive : navIdle}`;
+      if (i === current) b.setAttribute('aria-current', 'page');
+      b.addEventListener('click', () => show(i, { focus: true }));
+      li.appendChild(b);
+
+      if (i === current && s.children.length) {
+        const sub = document.createElement('ol');
+        sub.className = 'hidden lg:flex flex-col gap-0.5 mt-1 mb-2';
+        s.children.forEach(c => {
+          const sli = document.createElement('li');
+          const sb = document.createElement('button');
+          sb.type = 'button';
+          sb.textContent = label(c.text);
+          sb.className = subNav;
+          sb.addEventListener('click', () => show(i, { anchor: c.id }));
+          sli.appendChild(sb);
+          sub.appendChild(sli);
+        });
+        li.appendChild(sub);
+      }
+      toc.appendChild(li);
+    });
+  }
+
+  function show(i, opts = {}) {
+    const s = sections[i];
+    const changed = i !== current || !content.innerHTML;
+    current = i;
+    if (changed) {
+      content.innerHTML = `
+        <h2 class="font-serif text-3xl sm:text-4xl font-semibold tracking-tight leading-tight">${s.title}</h2>
+        <div class="${bodyClasses}">${s.html}</div>`;
+      const heads = [...content.querySelectorAll('h3, h4')];
+      s.children.forEach(c => {
+        const h = heads.find(x => x.textContent === c.text);
+        if (h) h.id = c.id;
+      });
+    }
+    renderToc();
+    const prev = sections[i - 1], next = sections[i + 1];
+    prevBtn.disabled = !prev;
+    nextBtn.disabled = !next;
+    prevBtn.textContent = prev ? `Back: ${label(prev.title)}` : 'Back';
+    nextBtn.textContent = next ? `Next: ${label(next.title)}` : 'Next';
+    history.replaceState(null, '', '#' + (opts.anchor || s.id));
+    if (opts.anchor) {
+      document.getElementById(opts.anchor).scrollIntoView({ block: 'start', behavior: 'smooth' });
+    } else if (opts.focus) {
+      content.focus({ preventScroll: true });
+      content.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    }
+  }
+
+  prevBtn.addEventListener('click', () => show(current - 1, { focus: true }));
+  nextBtn.addEventListener('click', () => show(current + 1, { focus: true }));
+
+  // Open the section named in the URL hash (a section id or one of its H3 ids)
+  const hash = location.hash.slice(1);
+  let startIndex = sections.findIndex(s => s.id === hash);
+  let startAnchor = null;
+  if (startIndex < 0) {
+    startIndex = sections.findIndex(s => s.children.some(c => c.id === hash));
+    if (startIndex >= 0) startAnchor = hash;
+  }
+  show(startIndex >= 0 ? startIndex : 0, startAnchor ? { anchor: startAnchor } : {});
+
+  const dlg = document.getElementById('aboutDialog');
+  document.getElementById('aboutBtn').addEventListener('click', () => dlg.showModal());
+  document.getElementById('closeAbout').addEventListener('click', () => dlg.close());
+  dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+</script>
+</body>
+</html>
