@@ -154,6 +154,16 @@ Pre-Award
 
 Purpose: Pre-award grant work involves completing the application and refining its content to meet specific requirements. This process focuses on key elements such as Organization History, Description of Need, Activities, Evaluation, and Budget. The George Williams Young Professional Fund serves as an example of an animal-focused grant requiring these components, highlighting the core repeating elements a beginner applicant would complete.
 
+
+Award Phase
+
+Applications are selected by the agency that oversees the grant; the process turns into a legal agreement. Agency review: Before finalizing, the agency may conduct an assessment of the applicant and negotiate minor adjustments to the work or the budget. Notice of Award (NoA) or a grant agreement: The applicant accepts the documents and signs them; the applicant and the agency enter into a legally binding contract. This agreement outlines the terms, conditions, reporting requirements, and the approved budget.
+
+Post-Award Phase
+
+The post-award phase begins once the agreement is signed and funding is officially released. This is where the actual project execution and accountability take place. Work Initiation: Project work begins in accordance with the timelines, milestones, and deliverables outlined in the approved application and grant agreement. Funds are drawn down as expenses are incurred. Agency Check-Ins & Monitoring: Throughout the project lifecycle, the agency monitors progress. Recipients must submit regular financial and programmatic performance reports (quarterly or annually) and participate in check-ins or audits to ensure funds are being used effectively.
+
+
 Items needed based on this application
 
 Proposed training plan and goals, including the plan to attend a formal instructor/trainer program - Description of Needs
