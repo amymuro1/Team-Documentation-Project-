@@ -183,7 +183,11 @@ Repeating Themes
 
 Purpose: Repeating elements in grant applications typically include Organization History, Description of Need, Activities, Evaluation, and Budget. These sections outline the key information applicants must provide.
 
-Organization History: Background details about your mission, background, and past impact. Description of Need: The core problem or community issue your project addresses. Activities: The specific steps, programs, or actions you will execute. Evaluation: How you will measure success and track program outcomes. Budget: A clear financial plan showing projected expenses and funding requests.
+Organization History: Background details outlining your organization's mission, history, governance structure, and past impact within the community.
+Description of Need: A comprehensive explanation of the core problem, data-backed community issue, or service gap that your proposed project addresses.
+Activities: The specific steps, implementation timeline, operational programs, or strategic actions your team will execute to fulfill the project goals.
+Evaluation: The performance metrics and methodology detailing how you will measure success, track program milestones, and evaluate outcomes.
+Budget: A clear financial plan showing projected expenses, itemized operational costs, matching funds, and specific funding requests aligned with the project scope.
 
 Current content: Gaps: Currency/consistency concerns: User needs:
 
