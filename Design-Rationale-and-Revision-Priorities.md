@@ -1,9 +1,3 @@
 ## Design Rationale
-
-
-
-
-
-
-
+This guide is structured for early-stage grant writers. We considered early-stage grant writers to be overwhelmed by the process of grant writing. Hence, we utilized a clean, single-page layout with a navigation bar on the left to reduce cognitive overload. The design priorities: scannability and visual hierarchy. We included the 4 main topics on our navigation bar, and if a topic has multiple sections within the single page, we created a drop-down menu with smaller headings. These clickable components allow the user to be immediately directed towards a heading within the single page. This is so novice writers can easily locate specific information without needing to read the entirety of the page. We provided a simple layout that includes step-by-step information so that writers can gain confidence creating their first grant, and reference grant writing examples under our "Grant Writing in Action". 
 ## Revision Priorities
