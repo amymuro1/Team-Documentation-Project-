@@ -1,3 +1,7 @@
+Examples Link:
+
+https://docs.google.com/document/d/1tyI2KgqJh4yMGUHlpMrQnpil_1RuT5-lYx0-_EiC54U/edit?usp=sharing 
+
 Explanation of Phases
 
 Pre-Award
@@ -19,6 +23,10 @@ The post-award phase begins once the agreement is signed and funding is official
 Work Initiation: Project work begins in accordance with the timelines, milestones. And deliverables, outlined in the approved application and grant agreement. Funds are drawn down as expenses are incurred. 
 
 Agency Check-ins & Monitoring: Throughout the project lifecycle, the agency monitors progress. Recipients must submit regular financial and programmatic performance reports  (quarterly or annually) and participate in check-ins or audits to ensure funds are being used effectively.
+
+This is the website:
+https://www.grants.gov/learn-grants/grants-101/the-grant-lifecycle
+
 
 Example of Pre-Award Writing Section 1
 
@@ -99,26 +107,17 @@ The recipients of the grants are required to provide a training and financial re
 Throughout their training, recipients are encouraged to share training/event updates with The Dressage Foundation via email or tag The Dressage Foundation on social media.  
 
 
-
-Life cylces
-
-Purpose: Grant writing involves multiple elements across the grant lifecycle. Grants.gov provides a helpful short guide to understanding the various elements that apply to both application preparation and post-award handling.
-
-Pre-award: announcing opportunities, submitting applications, and reviewing applications
-
-Award Phase: the agency reviews the application and enters legal bindings
-
-Post -award: work is started based on the dates in the applications, and there are check-ins with the agency that gave the money
-
-Current content: Gaps: Currency/consistency concerns: User needs:
-
-This is the website:
-
-https://www.grants.gov/learn-grants/grants-101/the-grant-lifecycle
-
-This defines a website and a PDF of an application. The longer application is filled out in the pre-award stage and then edited. This is a longer example, but elements are the same for Organization History, Description of Need, Activities, Evaluation, and Budget.
-
+Completing grant questions
+In this example from the George Williams Young Professional Fund is an open application which I will insert here: Link. The document is separated into sections, applicant information,specific grant fund questions, financial information, and documentation. Each section is filled out within the parameters of the question. 
+Under financial information there is a section called Detailed budget. Under this section you would fill out how you would use the money within a year's time.
+Here is an tutorial of creating a chart in Excel https://support.microsoft.com/en-us/excel/get-started/create-a-chart-from-start-to-finish 
+Here is a tutorial of creating a chart in Google Sheets
+https://support.google.com/docs/answer/63824?hl=en&co=GENIE.Platform%3DDesktop 
+Here is the example in google sheets:
+https://docs.google.com/spreadsheets/d/1W84Sox61FZc4dZ-5FGlmdB1WS_JDHA_SjlSPFldxjzE/edit?usp=sharing 
+This is another grant website and a PDF of an application. The longer application is filled out in the pre-award stage and then edited. This is a longer example, but the elements are the same for Organization History, Description of Need, Activities, Evaluation, and Budget.
 https://www.bankofamerica.com/philanthropic/foundation/?fnId=300
-
 Here is the PDF - https://www.bankofamerica.com/content/documents/philanthropic/Online_Application_Help.pdf
+
+
 
