@@ -201,3 +201,94 @@ This defines a website and a PDF of an application. The longer application is fi
 https://www.bankofamerica.com/philanthropic/foundation/?fnId=300
 
 Here is the PDF: https://www.bankofamerica.com/content/documents/philanthropic/Online_Application_Help.pdf
+
+
+# Example of Pre-Award Writing: Section 1
+
+## Repeating Themes
+
+### Purpose
+Repeating elements in grant applications include **Organization History**, **Description of Need**, **Activities**, **Evaluation**, and **Budget**. These sections outline the key information applicants must provide.
+
+### Repeating Themes Description
+* **Organization History:** Background details outlining your organization’s mission, history, governance structure, and past impact within the community.  
+* **Description of Need:** A comprehensive explanation of the core problem, data-backed community issue, or service gap that your proposed project addresses.
+* **Activities:** The specific steps, implementation timeline, operational programs, or strategic actions your team will execute to fulfill the project goals.
+* **Evaluation:** The performance metrics and methodology detailing how you will measure success, track program milestones, and evaluate outcomes.
+* **Budget:** A clear financial plan showing projected expenses, itemized operational costs, matching funds, and specific funding requests aligned with the project scope.
+
+---
+
+## Case Study: George Williams Young Professional Fund
+
+### Application Requirements Checklist
+* Summary of your dressage experience
+* Proposed training plan and goals, including the plan to attend a formal instructor/trainer program
+* Volunteer history
+* Information about your teaching and training
+* Brief business plan for the next two to three years, including professional goals
+* Detailed budget of how the grant money will be used
+* Competition scores from the past four years
+* Two letters of recommendation from your peers
+
+---
+
+## Categorization of Requirements by Repeating Theme
+| Grant Application Section | Required Application Items |
+| :--- | :--- |
+| **Organization History** | • Summary of your dressage experience |
+| **Description of Need** | • Proposed training plan and goals, including the plan to attend a formal instructor/trainer program |
+| **Activities** | • Volunteer history |
+| **Evaluation** | • Information about your teaching and training<br>• Brief business plan for the next two to three years, including professional goals<br>• Competition scores from the past four years<br>• Two letters of recommendation from your peers |
+| **Budget** | • Detailed budget of how the grant money will be used |
+
+# Example of Pre-Award Writing: Section 2
+
+## This section is about additional information/reporting information:
+
+### Additional Information
+* Training funded by this grant can start no sooner than two months after the application deadline date.
+* Funding cannot be used for competition entries, vet and/or farrier expenses, or the purchase of a horse or equipment.
+* The recipients of these grants must use the funds within one year of the date of the award.
+* Recipients are chosen by an independent selection committee composed of dressage industry leaders. The applications and discussions of the selection committee are confidential, and their decisions are final.
+* The selection committee reserves the right not to award a grant in any given year if they determine that no candidate has met the criteria.
+* If the grant recipient is unable to attend the event/training specified in their application, The Dressage Foundation must be notified as soon as possible. Approval for a change in the use of funds is at the discretion of The Dressage Foundation and the grant selection committee.
+* This grant may only be received once.
+* The Dressage Foundation feels strongly that this grant should be based on merit and need. If your financial situation permits you to pursue these goals without the help of TDF, we urge you to allow other riders who are not in that position to apply.
+
+### Reporting Information
+* For all recipients, 75% of grant funds will be paid prior to the recipient’s departure for training; 25% will be paid after the applicant has completed training and has submitted a training and financial report to The Dressage Foundation.
+* The recipients of the grants are required to provide a training and financial report of their experience to The Dressage Foundation. The reports may be written, video, photo journal, or in other ways pre-approved by The Dressage Foundation. The report is due within two months following the completion of the training.
+* Throughout their training, recipients are encouraged to share training/event updates with The Dressage Foundation via email or tag The Dressage Foundation on social media.
+
+---
+
+Here we are condensing information to understand what the agency wants. I have separated Time, How grant cannot be used, Grant fund timeline, Notification of Change,Need of Grant. This section is about separating the information into sections to understand what the agency wants.
+
+| Category | Information & Requirements |
+| :--- | :--- |
+| **Grant Fund Timeline/Reapplication Options** | • Training funded by this grant can start no sooner than two months after the application deadline date.<br>• The recipients of these grants must use the funds within one year of the date of the award.<br>• This grant may only be received once. |
+| **How Grant Cannot be Used** | • Funding cannot be used for competition entries, vet and/or farrier expenses, or the purchase of a horse or equipment. |
+| **Notification of Change** | • Recipients are chosen by an independent selection committee composed of dressage industry leaders. The applications and discussions of the selection committee are confidential, and their decisions are final.<br>• The selection committee reserves the right not to award a grant in any given year if they determine that no candidate has met the criteria.<br>• If the grant recipient is unable to attend the event/training specified in their application, The Dressage Foundation must be notified as soon as possible. Approval for a change in the use of funds is at the discretion of The Dressage Foundation and the grant selection committee. |
+| **Need of Grant** | • The Dressage Foundation feels strongly that this grant should be based on merit and need. If your financial situation permits you to pursue these goals without the help of TDF, we urge you to allow other riders who are not in that position to apply. |
+| **Reporting** | • For all recipients, 75% of grant funds will be paid prior to the recipient’s departure for training; 25% will be paid after the applicant has completed training and has submitted a training and financial report to The Dressage Foundation.<br>• The recipients of the grants are required to provide a training and financial report of their experience to The Dressage Foundation. The reports may be written, video, photo journal, or in other ways pre-approved by The Dressage Foundation. The report is due within two months following the completion of the training.<br>• Throughout their training, recipients are encouraged to share training/event updates with The Dressage Foundation via email or tag The Dressage Foundation on social media. |
+
+# Completing Grant Questions
+
+In this example from the George Williams Young Professional Fund is an open application which I will insert here: Link. The document is separated into sections, applicant information, specific grant fund questions, financial information, and documentation. Each section is filled out within the parameters of the question. 
+
+Under financial information there is a section called Detailed budget. Under this section you would fill out how you would use the money within a year's time.
+
+Here is an tutorial of creating a chart in Excel:
+[Microsoft Excel Tutorial - Create a chart from start to finish](https://support.microsoft.com/en-us/excel/get-started/create-a-chart-from-start-to-finish) 
+
+Here is a tutorial of creating a chart in Google Sheets:
+[Google Sheets Tutorial - Create a chart](https://support.google.com/docs/answer/63824?hl=en&co=GENIE.Platform%3DDesktop) 
+
+Here is the example in google sheets:
+[Google Sheets Example Budget](https://docs.google.com/spreadsheets/d/1W84Sox61FZc4dZ-5FGlmdB1WS_JDHA_SjlSPFldxjzE/edit?usp=sharing) 
+
+This is another grant website and a PDF of an application. The longer application is filled out in the pre-award stage and then edited. This is a longer example, but the elements are the same for Organization History, Description of Need, Activities, Evaluation, and Budget.
+
+* [Bank of America Philanthropic Foundation](https://www.bankofamerica.com/philanthropic/foundation/?fnId=300)
+* [Bank of America Online Application Help (PDF)](https://www.bankofamerica.com/content/documents/philanthropic/Online_Application_Help.pdf)
