@@ -16,7 +16,7 @@ Grant Writing Website
 ## 1. Summary
 **Brief Description:** Provide a high-level summary of the usability study, our key goals, and the process of creating the usability testing and its components.
 ## 2. Participant Profile & Methodology
- 2.1 **Participant Demographics:** Put our target audience, how many participants, and our selection criteria, if desired.
+ 2.1 **Participant Demographics:** To evaluate the website's accessibility and usability across varying experience levels, we recruited a diverse cohort of five participants aged 18 and older through our professional and personal networks of friends and colleagues. Recognizing that grant writing for non-profit organizations is not limited to experienced writers, our sample intentionally included a mix of individuals who had a writing background and those who did not. This balance allowed us to gather critical insights from both seasoned writers and complete beginners, mirroring our target audience of non-profit staff, writers, and volunteers who may be tasked with writing a grant regardless of their prior experience.  
  
  2.2 **Test Environment:** Session format and the key tasks evaluated.  
 ## 3. Summary of Findings
