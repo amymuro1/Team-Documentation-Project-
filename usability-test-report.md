@@ -1,17 +1,16 @@
 # Usability Test Report
 Grant Writing Website
 ---
-## Table of Contents 
-1. [Summary](#1-summary)
+## Table of Contents
+1. [Executive Summary](#1-summary)
 2. [Participant Profile & Methodology](#2-participant-profile--methodology)
     * [2.1 Participant Demographics](#21-participant-demographics)
-    * [2.2 Test Environment & Procedure](#22-test-environment--procedure)
+    * [2.2 Test Environment](#22-test-environment)
 3. [Summary of Findings](#3-summary-of-findings)
     * [3.1 Task Completion](#31-task-completion)
-    * [3.2 User Feedback & Quotes](#32-user-feedback--quotes)
+    * [3.2 User Feedback](#32-user-feedback)
 4. [Prioritized Revision List](#4-prioritized-revision-list)
-    * [4.1 High Priority (Critical Fixes)](#high-priority-critical-fixes)
-5. [Conclusion & Next Steps](#5-conclusion--next-steps)
+    * [4.1 Priority (Critical Fixes)](#priority-critical-fixes)
 ---
 ## 1. Summary
  1.1 By reviewing and applying an introductory digital grant application resource, we aim to lower the barrier to entry for nonprofits seeking funding. Nonprofits may have limited access to specialists in the grant writing field and can face a lack of funding application options. Our goals in this study are to review user sentiments towards the application process, observe how they apply their own information hierarchy to the concepts provided, and to distill textual feedback into actionable insights. In creating this study, we sought to collect users with and without grant writing experience to aggregate data from both the informed and uninformed perspectives. Feedback on the efficacy of our terminology, alongside language from our experienced users, informs our research questions further. In gaining perspective from the inexperienced users, we can see the applicability of our information architecture. Users are presented with a reference grant application resource alongside supplementary instructional material to scaffold understanding. A Google Form providing feedback boxes allows users to respond to presented scenarios to assess comprehension and application rate in relation to supplementary material.
