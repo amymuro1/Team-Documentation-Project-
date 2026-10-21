@@ -6,7 +6,7 @@ We received 5 participants, excluding a fake participant meant to test the surve
 
 - **Users want examples.** Umber, Taylor, and Steven all asked for sample content. Steven said "In The proposal information, there is the description of need. The description of need includes did you want to play the approach? What is needed? ". Two specifically asked for an example budget, and Taylor said "I would need to see more examples for this to really make sense, maybe with some example screenshots".
 
-- **Beginners need orientation.** Taylor asked for a landing page covering what grants are, the benefits, post-award requirements, and where to find opportunities. Megan said she felt lost and wasn’t sure where answers were in the guide.
+- **Beginners need orientation.** Taylor asked for a landing page covering what grants are, the benefits, post-award requirements, and where to find opportunities. Megan said "it's kind of confusing and I don't know anything about grants so I was really lost".
 
 - **Navigation is tab-heavy.** Umber found it easy to forget where information lived, and Megan struggled to locate answers. Umber said "There are a lot of tabs to click into which can make it hard to locate specific information and easy to forget which page a specific nugget of information was on."
 
