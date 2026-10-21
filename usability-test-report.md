@@ -22,7 +22,7 @@ Grant Writing Website
 ## 3. Summary of Findings
 3.1 **Task Completion:** Did everyone complete all the tasks? 
 
-3.2 **User Feedback:** What did the participants say? We can include highlights, screenshots, and quotes. 
+3.2 **User Feedback:** What did the participants say? We need to include either highlights, screenshots, or quotes. 
 
 ## 4. Prioritized Revision List
 4.1 **User Feedback:** What will we change, and why?
