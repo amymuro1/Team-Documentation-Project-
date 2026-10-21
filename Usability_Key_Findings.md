@@ -1,4 +1,4 @@
-We received 5 participants, excluding a fake participant meant to test the survey. We had three people who were new to grant writing, and two with moderate to expensive. Averaging all participants, Navigation was ranked 2.4 out of 5, information readability was ranked 2.2 out of 5. Visual appeal ranked 3.2 out of 5, and confidence was ranked 3.0 out of 5.
+We received 5 participants, excluding a fake participant meant to test the survey. We had three people who were new to grant writing, and two with moderate to extensive. Averaging all participants, Navigation was ranked 2.4 out of 5, information readability was ranked 2.2 out of 5. Visual appeal ranked 3.2 out of 5, and confidence was ranked 3.0 out of 5.
 
 **Key findings**
 
