@@ -18,9 +18,9 @@ By reviewing and applying an introductory digital grant application resource, we
 ## 2. Participant Profile & Methodology
  2.1 **Participant Demographics:** To evaluate the website's accessibility and usability across varying experience levels, we recruited a diverse cohort of five participants aged 18 and older through our professional and personal networks of friends and colleagues. Recognizing that grant writing for non-profit organizations is not limited to experienced writers, our sample intentionally included a mix of individuals who had a writing background and those who did not. This balance allowed us to gather critical insights from both seasoned writers and complete beginners, mirroring our target audience of non-profit staff, writers, and volunteers who may be tasked with writing a grant regardless of their prior experience.  
  
- 2.2 **Test Environment:** Session format and the key tasks evaluated.  
+ 2.2 **Test Environment:** The surveys were completed within three days, on their own. The survey time was about 15-30 minutes. There were three key tasks that were conducted. The first tasked prompted users to use the guide as a source. The second task prompted users to use the guide as a source to main components of the grant. The third task prompted users to give feedback on the general navigation of the website. 
 ## 3. Summary of Findings
-3.1 **Task Completion:** Did everyone complete all the tasks? 
+3.1 **Task Completion:** Yes, everyone completed the tasks given on the survey. Those who wrote a grant previously answered the optional question given in the survey. 
 
 3.2 **User Feedback:** What did the participants say? We need to include either highlights, screenshots, or quotes. 
 
