@@ -4,7 +4,7 @@ We received 5 participants, excluding a fake participant meant to test the surve
 
 - **The Common Proposal Form and Documentation Guidance sections overlap and confuse people.** Both have the same three subtabs (Organizational, Budget, Proposal Info), and users must click into both to get the full picture. Sean suggested merging them or trimming the form to a list without descriptions. Umber asked to "explore why the same information is presented in two different ways and how that format is beneficial to the user".
 
-- **Users want examples.** Umber, Taylor, and Steven all asked for sample content. Steven said "In The proposal information, there is the description of need. The description of need includes did you want to play the approach? What is needed? ". Two specifically asked for an example budget, and Taylor said "I would need to see more examples for this to really make sense, maybe with some example screenshots".
+- **Users want examples.** Umber, Taylor, and Steven all asked for sample content. Steven said "An example budget would be nice". Two specifically asked for an example budget, and Taylor said "I would need to see more examples for this to really make sense, maybe with some example screenshots".
 
 - **Beginners need orientation.** Taylor asked for a landing page covering what grants are, the benefits, post-award requirements, and where to find opportunities. Megan said "it's kind of confusing and I don't know anything about grants so I was really lost".
 
