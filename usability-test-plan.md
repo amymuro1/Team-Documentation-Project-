@@ -1,0 +1,3 @@
+# Usability Test Plan
+Our usability test consisted of a Google survey collected from participants our group chose from people we know. We collected responses from five people, so a constraint is that our sample size is small. Another constraint is that it's a digital survey, so we're not able to be with participants physically while they do the report. In the survey, we had participants complete three tasks with an additional optional task as well as provide qualitative and quantitative feedback. Here is the link to the usability test, containing the survey.
+https://docs.google.com/forms/d/e/1FAIpQLSfyDwSbRZwTat-C3yLImoGHEhuOAZASY2UwlzN6KKsoOb9XCg/viewform?usp=publish-editor
