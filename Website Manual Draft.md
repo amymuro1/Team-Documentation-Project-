@@ -285,8 +285,24 @@ Here is an tutorial of creating a chart in Excel:
 Here is a tutorial of creating a chart in Google Sheets:
 [Google Sheets Tutorial - Create a chart](https://support.google.com/docs/answer/63824?hl=en&co=GENIE.Platform%3DDesktop) 
 
-Here is the example in google sheets:
+Here is the example in google sheets based on the grant:
 [Google Sheets Example Budget](https://docs.google.com/spreadsheets/d/1W84Sox61FZc4dZ-5FGlmdB1WS_JDHA_SjlSPFldxjzE/edit?usp=sharing) 
+
+Here is the generalized example in excel: https://txst-my.sharepoint.com/:x:/g/personal/cab280_txstate_edu/IQCjzI0pueVaTYrekw0w3KpyAbcQl1Akqd9wI8Tj4nOdQ1U?e=nGaZ0K 
+
+This is an example of the information formatted from grants.gov https://www.ojp.gov/funding/grants101/develop-budget 
+
+| Budget Category | Required Details & Information | Key Rules, Calculations, & Restrictions |
+| :--- | :--- | :--- |
+| **1. Personnel** | • Position title<br>• Employee name (if available)<br>• Annual salary rate<br>• Percentage of time devoted to the project | • List *only* employees of the applicant organization.<br>• All other grant-funded positions go under Consultants/Contracts.<br>• Compensation must match similar work within your organization. |
+| **2. Fringe Benefits** | • Benefits for listed personnel matching their percentage of project time | • Base on actual known costs or an established formula.<br>• Fringe on overtime is strictly limited to FICA, workers' compensation, and unemployment compensation. |
+| **3. Travel** | • Purpose (e.g., training, field interviews)<br>• Location (if known)<br>• Calculation breakdown (airfare, lodging, meals)<br>• Trainee travel/meals listed separately (with counts/unit costs) | • Indicate source of travel policy (applicant vs. federal regulations).<br>• Using federal grant funds for non-DOJ-sponsored training requires prior approval from the funding agency. |
+| **4. Equipment** | • Nonexpendable items to be purchased<br>• Explanation of why equipment is needed for project success | • Defined as tangible property with useful life > 2 years and acquisition cost $\ge$ $5,000 per unit (or your org's capitalization policy).<br>• Include cost-benefit analysis (purchase vs. lease).<br>• Attach a procurement method narrative. |
+| **5. Supplies** | • Items listed by type (office supplies, postage, training materials, copying paper, etc.)<br>• Expendable equipment items costing < $5,000 | • Show how costs were calculated.<br>• Generally includes materials expendable or consumed during the course of the project. |
+| **6. Construction** | • Minor repairs or renovations (if applicable) | • As a rule, construction costs are **not allowable**.<br>• Always check the solicitation and consult the program office before budgeting. |
+| **7. Consultants / Contracts** | • **Consultant Fees:** Name, service, hourly/daily fee (8-hr day), estimated time.<br>• **Consultant Expenses:** Travel, meals, lodging.<br>• **Contracts:** Description of product/service, estimated cost, competition details. | • State whether you follow your organization’s written procurement policy or Federal Acquisition Regulations.<br>• Consultant fees > $450/day require additional justification and prior approval from OJP.<br>• Promote free/open competition; sole-source contracts $\ge$ $100,000 require separate justification. |
+| **8. Other Costs** | • Major types of items (rent, reproduction, telephone, security, confidential funds) | • Show how costs were calculated (e.g., square footage $\times$ cost per sq. ft. $\times$ number of months for rent). |
+| **9. Indirect Costs** | • Federally approved indirect cost rate documentation | • Allowed only if you have a federally approved rate (attach a fully executed, negotiated agreement).<br>• Alternatively, allocate costs directly if your accounting system permits. |
 
 This is another grant website and a PDF of an application. The longer application is filled out in the pre-award stage and then edited. This is a longer example, but the elements are the same for Organization History, Description of Need, Activities, Evaluation, and Budget.
 
