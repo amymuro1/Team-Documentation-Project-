@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title> Grant Writing Guide</title>
+<title>Grant Writing Guide</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&display=swap" rel="stylesheet">
@@ -41,7 +41,7 @@
 <!-- Title banner + About button -->
 <header class="bg-banner dark:bg-banner-dark text-banner-ink">
   <div class="mx-auto max-w-6xl px-4 sm:px-6 py-6 sm:py-8 flex items-start sm:items-center justify-between gap-4">
-    <h1 class="font-serif font-semibold tracking-tight text-3xl sm:text-4xl lg:text-5xl leading-tight"> Grant Writing Guide</h1>
+    <h1 class="font-serif font-semibold tracking-tight text-3xl sm:text-4xl lg:text-5xl leading-tight">Grant Writing Guide</h1>
     <button id="aboutBtn" type="button"
       class="shrink-0 rounded-lg border border-banner-ink/50 px-4 py-2 text-sm font-semibold transition-colors motion-reduce:transition-none hover:bg-banner-ink hover:text-banner dark:hover:text-banner-dark focus:outline-none focus-visible:ring-2 focus-visible:ring-banner-ink focus-visible:ring-offset-2 focus-visible:ring-offset-banner dark:focus-visible:ring-offset-banner-dark">
       About this guide
@@ -115,7 +115,7 @@
   const sections = [
     {
       id: 'base-documentation',
-      title: 'Getting Started: Base Documentation',
+      title: 'Getting Started With Grant Writing',
       navHeadings: [],
       html: `
         <h3>Note to Reader:</h3>
@@ -127,38 +127,10 @@
       id: 'common-proposal-form',
       title: 'See a Template: Common Proposal Form',
       html: `
-        <h3>Full Proposal Narrative</h3>
-        <p>The Full Proposal Narrative provides a complete description of the request. This suggested format includes the most common information foundations and corporate grantmakers request. Read the Common Proposal Instructions before you begin. We strongly recommend that you check the specific guidelines developed by the funder before completing this form. Please input text in shaded boxes. <strong>The suggested limit is eight (8) pages.</strong></p>
-        ${callout('Important', `<strong>Action:</strong> Fill out the bracketed fields ${code('[...]')} in the template below with your specific grant details.`)}
-        ${table(['Grant Application Field', 'Details &amp; Instructions'], [
-          ['Request to:', '<em>[Enter the name of the foundation or corporation]</em>'],
-          ['Organization Name:', '<em>[Enter the name of your organization]</em>'],
-          ['Project Name (if any):', '<em>[If there is no program or project name, leave blank]</em>'],
-        ])}
-
-        <h3>Organizational Information</h3>
-        ${table(['Requirement Component', 'Guidance &amp; Description'], [
-          ["1. Organization's History", '<em>[Describe the founding background, evolution, and major milestones of your organization]</em>'],
-          ['2. Goals &amp; Objectives', '<em>[Outline both short-term targets and long-term strategic goals]</em>'],
-          ['3. Programs &amp; Services', '<em>[Briefly summarize your core offerings, active initiatives, and community impact]</em>'],
-          ['4. Structure', '<em>[Detail the composition of your governing board, internal staff, and volunteer network]</em>'],
-        ])}
-        ${callout('Tip', '<em>Note: A <strong>Diversity Data Form</strong> may be used to supply the required demographic data for your organizational structure.</em>')}
-
-        <h3>Proposal Information</h3>
-        <p>If you are requesting general operating support, provide information about your organization's overall purpose, operating needs, and strategic plans.</p>
-        ${table(['Grant Section', 'Guidance &amp; Description'], [
-          ['5. Program/Project Description', '<em>[Provide a comprehensive overview of the specific program or project for which you are requesting funding]</em>'],
-          ['6. Description of Need', '<em>[Detail the core issue you plan to address, your proposed approach, supporting research, and how your strategy stands out]</em>'],
-          ['7. Specific Activities', '<em>[Outline the operational details, including service delivery methods and an implementation timeline]</em>'],
-          ['8. Objectives &amp; Goals', '<em>[Explain how this grant will strengthen your organization, tackle the defined issues, and achieve success]</em>'],
-          ['9. Evaluation', '<em>[Define your anticipated outcomes and the metrics or methods you will use to measure success]</em>'],
-          ['10. Other Information', '<em>[Provide any additional relevant details not covered above, or address unique questions from the grant maker]</em>'],
-        ])}
-
-        <h3>Budget Information</h3>
-        <p><strong>Use the Budget Forms to provide the organizational financial information and the program or project budget, both income and expenses.</strong> Use this section below to indicate what funding you have received from other foundations, and from which other foundations you plan to seek funding. Describe any unusual or special circumstances and provide an explanation/justification of funding request and the amount.</p>
-        <blockquote><em>[Provide your narrative here detailing other foundations you have received funding from, planned future requests, and an explanation or justification of your requested amount, including any unusual circumstances.]</em></blockquote>`
+        <p>The Common Proposal Form is available as a Word document: ${a('https://github.com/user-attachments/files/33913060/Common.Proposal.Form.Grant.Reference.doc', 'Common Proposal Form Grant Reference (.doc)')}</p>
+        <p>This link downloads the Common Proposal Form Grant Reference, the reference copy of the form used in this guide. Open it in Word, or in any program that can read .doc files, and use it as a template for drafting your application.</p>
+        <p>To understand what each part of the form is asking for, read it alongside the Grant Application Guidance &amp; Section Breakdown section of this guide. It explains the organizational and proposal information the form requests.</p>
+        ${callout('Tip', 'Check the specific guidelines from the funder you are applying to before you complete the form. Where a funder\u2019s instructions differ from the form, follow the funder.')}`
     },
     {
       id: 'grant-application-guidance',
@@ -375,7 +347,38 @@
         <p>Under financial information there is a section called Detailed budget. Under this section you would fill out how you would use the money within a year's time.</p>
         <p>Here is a tutorial of creating a chart in Excel: ${a('https://support.microsoft.com/en-us/excel/get-started/create-a-chart-from-start-to-finish', 'Microsoft Excel Tutorial - Create a chart from start to finish')}</p>
         <p>Here is a tutorial of creating a chart in Google Sheets: ${a('https://support.google.com/docs/answer/63824?hl=en&amp;co=GENIE.Platform%3DDesktop', 'Google Sheets Tutorial - Create a chart')}</p>
-        <p>Here is the example in google sheets: ${a('https://docs.google.com/spreadsheets/d/1W84Sox61FZc4dZ-5FGlmdB1WS_JDHA_SjlSPFldxjzE/edit?usp=sharing', 'Google Sheets Example Budget')}</p>
+        <p>Here is the example in google sheets based on the grant: ${a('https://docs.google.com/spreadsheets/d/1W84Sox61FZc4dZ-5FGlmdB1WS_JDHA_SjlSPFldxjzE/edit?usp=sharing', 'Google Sheets Example Budget')}</p>
+        <p>Here is the generalized example in excel: ${a('https://txst-my.sharepoint.com/:x:/g/personal/cab280_txstate_edu/IQCjzI0pueVaTYrekw0w3KpyAbcQl1Akqd9wI8Tj4nOdQ1U?e=nGaZ0K')}</p>
+        <p>This is an example of the information formatted from grants.gov ${a('https://www.ojp.gov/funding/grants101/develop-budget')}</p>
+        ${table(['Budget Category', 'Required Details &amp; Information', 'Key Rules, Calculations, &amp; Restrictions'], [
+          ['1. Personnel',
+            cellList(['Position title', 'Employee name (if available)', 'Annual salary rate', 'Percentage of time devoted to the project']),
+            cellList(['List <em>only</em> employees of the applicant organization.', 'All other grant-funded positions go under Consultants/Contracts.', 'Compensation must match similar work within your organization.'])],
+          ['2. Fringe Benefits',
+            cellList(['Benefits for listed personnel matching their percentage of project time']),
+            cellList(['Base on actual known costs or an established formula.', "Fringe on overtime is strictly limited to FICA, workers' compensation, and unemployment compensation."])],
+          ['3. Travel',
+            cellList(['Purpose (e.g., training, field interviews)', 'Location (if known)', 'Calculation breakdown (airfare, lodging, meals)', 'Trainee travel/meals listed separately (with counts/unit costs)']),
+            cellList(['Indicate source of travel policy (applicant vs. federal regulations).', 'Using federal grant funds for non-DOJ-sponsored training requires prior approval from the funding agency.'])],
+          ['4. Equipment',
+            cellList(['Nonexpendable items to be purchased', 'Explanation of why equipment is needed for project success']),
+            cellList(['Defined as tangible property with useful life &gt; 2 years and acquisition cost ≥ $5,000 per unit (or your org\u2019s capitalization policy).', 'Include cost-benefit analysis (purchase vs. lease).', 'Attach a procurement method narrative.'])],
+          ['5. Supplies',
+            cellList(['Items listed by type (office supplies, postage, training materials, copying paper, etc.)', 'Expendable equipment items costing &lt; $5,000']),
+            cellList(['Show how costs were calculated.', 'Generally includes materials expendable or consumed during the course of the project.'])],
+          ['6. Construction',
+            cellList(['Minor repairs or renovations (if applicable)']),
+            cellList(['As a rule, construction costs are <strong>not allowable</strong>.', 'Always check the solicitation and consult the program office before budgeting.'])],
+          ['7. Consultants / Contracts',
+            cellList(['<strong>Consultant Fees:</strong> Name, service, hourly/daily fee (8-hr day), estimated time.', '<strong>Consultant Expenses:</strong> Travel, meals, lodging.', '<strong>Contracts:</strong> Description of product/service, estimated cost, competition details.']),
+            cellList(['State whether you follow your organization’s written procurement policy or Federal Acquisition Regulations.', 'Consultant fees &gt; $450/day require additional justification and prior approval from OJP.', 'Promote free/open competition; sole-source contracts ≥ $100,000 require separate justification.'])],
+          ['8. Other Costs',
+            cellList(['Major types of items (rent, reproduction, telephone, security, confidential funds)']),
+            cellList(['Show how costs were calculated (e.g., square footage × cost per sq. ft. × number of months for rent).'])],
+          ['9. Indirect Costs',
+            cellList(['Federally approved indirect cost rate documentation']),
+            cellList(['Allowed only if you have a federally approved rate (attach a fully executed, negotiated agreement).', 'Alternatively, allocate costs directly if your accounting system permits.'])],
+        ])}
         <p>This is another grant website and a PDF of an application. The longer application is filled out in the pre-award stage and then edited. This is a longer example, but the elements are the same for Organization History, Description of Need, Activities, Evaluation, and Budget.</p>
         <ul>
           <li>${a('https://www.bankofamerica.com/philanthropic/foundation/?fnId=300', 'Bank of America Philanthropic Foundation')}</li>
