@@ -6,9 +6,9 @@
 ## Project Overview 
 (Explanation of the Scope)
 ### Usability Testing Overview 
-(Objectives and methodology of the usability test)
+Usability testing was conducted remotely through a digital Google Survey and recruited five participants with varying amounts of experience in grant writing. Users were asked to share their experiences using the guide and evaluate the guide's navigation, readability, and visual appeal. 
 ### Usability Testing Results
-(Key findings, user feedback)
+A significant number of users found navigation confusing and redundant. Users asked for additional examples in the guide and for better, more clear navigation. Users praised the visual design of the website. These results were used to further improve the guide with specific improvements in navigation and additional examples.
 ### What We Have Completed 
 (Major deliverables and features we have completed or achieved)
 ### Work In Progress
