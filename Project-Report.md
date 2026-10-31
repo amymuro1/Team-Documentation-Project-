@@ -4,7 +4,7 @@
 (Explanation of the Purpose of the project; specific objectives of the project)
 (You can explain the date the project began; the date the project is scheduled to be completed; people or organizations working on the project)
 ## Project Overview 
-(Explanation of the Scope)
+Our project focuses on creating a user-friendly beginner digital grant guide website to help writers who need to write a grant for their non-profit organization as well as aid them in using grant resources correctly. After receiving feedback from our initial testing we are focusing on refining the written content within the website, while ensuring our navigation and structure stay consistent throughout our document. We aim to eliminate visual and structural friction that users defined in our testing.
 ### Usability Testing Overview 
 Usability testing was conducted remotely through a digital Google Survey and recruited five participants with varying amounts of experience in grant writing. Users were asked to share their experiences using the guide and evaluate the guide's navigation, readability, and visual appeal. 
 ### Usability Testing Results
@@ -21,7 +21,7 @@ We are currently working on ensuring our website layout, headings, and content a
 1. Updating Headings and Labels: Rewriting a few of our headings on the navigation bar due to users requesting more descriptive headings.
 2. Simplifying the Navigation: Ensuring that the links to the navigation bar aren't being repeated or confusing users when different headings redirect them to the same content. 
 3. Refining Page Layouts:
-4. Clarifying Guide Content (Budget Section): Expanding and checking our budget section, and editing the first two points of our Navigation Bar. 
+4. Clarifying Guide Content (Budget Section): Expanding and checking our budget section, and editing the related issues with the _Common Proposal Form_
 ##   Conclusion 
 In conclusion, our team developed a short-format beginner's guide website for grant writing, utilizing GitHub and Markdown to collaborate and compile content from multiple sources. Based on our initial usability test, we identified navigation and budget issues and applied revisions. 
 ### Next Steps 
