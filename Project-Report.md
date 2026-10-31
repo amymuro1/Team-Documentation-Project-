@@ -1,7 +1,7 @@
 # Project Status Report 
 
 ## Introduction
-The Group Documentation Project is a collaborative effort to create a technical document or documentation in a mock-professional setting, mimicking a project management setting. Objectives of the project are to strengthen technical documentation skills, work in a group setting under time constraints and real-world circumstances, and create a usable finished product with deadlines, “client” requirements, and direct feedback. Our project began in August 2026 and is expected to end in December 2026. Project members include Chloe Brown, Amy Muro, James Rowland, and Carson Wright. 
+The Group Documentation Project is a collaborative effort to create a technical document or documentation in a mock project management setting. Objectives of the project are to strengthen technical documentation skills, work in a group setting under time constraints and real-world circumstances, and create a usable finished product with deadlines, “client” requirements, and direct feedback. Our project began in August 2026 and is expected to end in December 2026. Project members include Chloe Brown, Amy Muro, James Rowland, and Carson Wright. 
 
 (Explanation of the Purpose of the project; specific objectives of the project)
 (You can explain the date the project began; the date the project is scheduled to be completed; people or organizations working on the project)
