@@ -15,5 +15,9 @@ A significant number of users found navigation confusing and redundant. Users as
 (Current tasks we are working on, or any current obstacles we are facing that we are working on)
 ##   Conclusion 
 (Wrapping up the explanation of our project and summary)
+
+In conclusion, our team developed a short-format beginner's guide website for grant writing, utilizing GitHub and Markdown to collaborate and compile content from multiple sources. Based on our initial usability test, we identified navigation and budget issues and applied revisions. 
 ### Next Steps 
 (Immediate Actions and Long-term goals)
+
+Moving forward, we will evaluate our documentation to eliminate potential points of confusion, exclusion, bias, or user burden, establishing a clear team revision plan for all upcoming updates. Finally, we will complete a comprehensive team review and draft the portfolio case study before our final submission.
