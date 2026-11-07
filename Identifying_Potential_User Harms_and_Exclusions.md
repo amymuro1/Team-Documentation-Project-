@@ -1,0 +1,11 @@
+# Identifying Potential User Harms and Exclusions
+
+## 1. Headings, Labels and Navigation
+
+A potential user harm and exclusion can arise when updating headings and labels to satisfy requests for more descriptive titles. Conversely, not modifying navigation headings and layouts carries the risk of disrupting navigation altogether. This is particularly true for cognitively diverse individuals or those with low digital literacy trying to understand site content. Users with established mental models of other websites can become confused when different headings direct them to identical content, leading to information being gathered from the wrong section or misinterpreted based on the title. Ultimately, beginners would be excluded from what should be a beginner-friendly platform, requiring extra effort to navigate and locate their intended information.Failing to address these design flaws risks creating persistent accessibility barriers, leaving users overwhelmed by redundant pathways and unable to confidently complete critical tasks on the site.
+## 2. Refining Page Layout
+
+Continually, another harm and exclusion could arise from the current website layout. Our current site features a detailed guide with clear instructions for obtaining grant information, but users felt navigation would be easier if main points were highlighted. As a result, users are excluded from quickly identifying key information. This causes harm by increasing their screen time as they spend extra effort sifting through content.This lack of visual hierarchy creates barriers for users with cognitive or visual processing differences, ultimately discouraging potential applicants who need swift, accessible access to funding requirements.
+## 3. Clarifying Content Guide
+
+Finally, the current content like the budget section risks excluding applicants with lower financial literacy because of lacking examples for users to follow. Small organizations lacking dedicated grant writers if they do not have someone to explain the finance section may be mistaken when applying the guide to a grant application. Without visual samples, first-time applicants face barriers that can lead to submission problems in the application process.
