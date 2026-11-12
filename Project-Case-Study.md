@@ -11,14 +11,16 @@ Based on our user needs, we decided to create a website to serve as a guide. The
 ## Testing Process JAMES
 How did our team evaluate our website, and did we draft with users to see if our design worked in practice? Hone in on the usability test. 
 ## Revisions AMY
-Our main revisions were to eliminate confusion that was mentioned in our usability test. Below are our main revisions that were made: 
+Our main revisions were to eliminate confusion that was mentioned in our usability test. Below are our **main revisions** that were made: 
 * We linked the referenced document rather than using the encoded version.
 * We updated the structure of our guidance by fixing redirection issues within the sidebar region.
 * We changed headings to descriptive headings.
 * We updated the budget section of our website.
 * We tweaked our website layout so that users can find key information faster, and help users scan information quicker.
-  
-### Final Revisions: 
-* 
+
+ Below are our **final revisions** to make: 
+* Embed the common proposal form or include images in a separate tab or the same tab under a heading that mentions "problems with accessing the link?"
+* Ensure that on mobile devices the navigation bar presents the same components as the navigation bar on the website.
+* Final checks on working links, PDF files, link redirections, and mobile-friendly attributes.  
 ## Final Deliverables CARSON
 Showcase the polished and finished document our team produced, as well as explain how it fulfills the project goals. Closing it all in. 
