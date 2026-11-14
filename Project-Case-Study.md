@@ -3,7 +3,7 @@
 ## Project Context CARSON
 What is the project about, and what background information, etc.
 ## User Need JAMES
-What was our targeted audience, and their needs? 
+Our intended audience was people interested in grant writing, including people who are new to grant writing as well as those with experience. This audience required a guide that was written to suit varying levels of experience that is accessible to novices. 
 ## Research Methods CHLOE
 How did we gather evidence and insights to understand our audience and guide our design decisions?
 
@@ -14,7 +14,7 @@ We made our design choices after agreeing to feature short form content on the s
 ## Design Decisions AMY
 Based on our user needs, we decided to create a website to serve as a guide. The guide was centered on meeting the needs of beginner non-profit organizations, or users navigating an often intimidating, rigorous funding process. The website prioritizes simplicity and clarity, adopting a clean visual hierarchy that guides users step-by-step through the application process based on the Common Proposal Form. For example, we include a dedicated sidebar region, we separate context via modals "About this guide", and we ensure clear structural signposting. By including example-based breakdowns, the layout ensures that first-time grant writers can easily digest requirements and understand each phase of the Common Proposal Form without getting misled or confused.  
 ## Testing Process JAMES
-How did our team evaluate our website, and did we draft with users to see if our design worked in practice? Hone in on the usability test. 
+We evaluated the guide efficacy through a remote usability test consisting of a digital Google Survey and recruited five participants with varying amounts of experience in grant writing. Users were asked to perform three tasks: using the guide to write out how they would start writing a grant, identifying the major components of a grant, and explaining a grant component of their choice. In addition, users were asked to share their experiences using the guide and evaluate the guide's navigation, readability, and visual appeal. We received valuable feedback concerning the site's usability that guided future revisions. 
 ## Revisions AMY
 Our main revisions were to eliminate confusion that was mentioned in our usability test. Below are our **main revisions** that were made: 
 * We linked the referenced document rather than using the encoded version.
