@@ -16,4 +16,9 @@ This document outlines the individual contributions, responsibilities, and deliv
 * 
 
 ### Chloe
-*
+
+* Developed and drafted content for the example guide.
+* Incorporated a dedicated budget section into the document.
+* Standardized section formatting by implementing consistent bolding for headings, references, and tables.
+* Provided ongoing support and assistance to team members as needed.
+* Gave feedback when needed and reviewed other team members' work.
