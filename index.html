@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Grant Writing Guide</title>
+<title>Non-Profit Grant Writing Guide</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&display=swap" rel="stylesheet">
@@ -38,10 +38,14 @@
 </head>
 <body class="font-sans antialiased min-h-screen flex flex-col box-border pt-[env(safe-area-inset-top,0px)] pb-[env(safe-area-inset-bottom,0px)] bg-page text-ink dark:bg-page-dark dark:text-ink-dark">
 
+<!-- Skip link: first focusable element on the page -->
+<a id="skipLink" href="#content"
+  class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-[calc(env(safe-area-inset-top,0px)+1rem)] focus:z-50 focus:rounded-lg focus:bg-accent dark:focus:bg-accent-dark focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-page dark:focus:text-page-dark focus:outline-none focus:ring-2 focus:ring-accent dark:focus:ring-accent-dark focus:ring-offset-2 focus:ring-offset-page dark:focus:ring-offset-page-dark">Skip to main content</a>
+
 <!-- Title banner + About button -->
 <header class="bg-banner dark:bg-banner-dark text-banner-ink">
-  <div class="mx-auto max-w-6xl px-4 sm:px-6 py-6 sm:py-8 flex items-start sm:items-center justify-between gap-4">
-    <h1 class="font-serif font-semibold tracking-tight text-3xl sm:text-4xl lg:text-5xl leading-tight">Grant Writing Guide</h1>
+  <div class="mx-auto max-w-6xl px-4 sm:px-6 py-6 sm:py-8 flex flex-wrap items-center justify-between gap-4">
+    <h1 class="min-w-0 flex-1 basis-60 break-words font-serif font-semibold tracking-tight text-3xl sm:text-4xl lg:text-5xl leading-tight">Non-Profit Grant Writing Guide</h1>
     <button id="aboutBtn" type="button"
       class="shrink-0 rounded-lg border border-banner-ink/50 px-4 py-2 text-sm font-semibold transition-colors motion-reduce:transition-none hover:bg-banner-ink hover:text-banner dark:hover:text-banner-dark focus:outline-none focus-visible:ring-2 focus-visible:ring-banner-ink focus-visible:ring-offset-2 focus-visible:ring-offset-banner dark:focus-visible:ring-offset-banner-dark">
       About this guide
@@ -51,28 +55,39 @@
 
 <div class="mx-auto w-full max-w-6xl px-4 sm:px-6 py-6 lg:py-10 flex-1 flex flex-col lg:flex-row gap-6 lg:gap-12">
 
-  <!-- Table of contents / nav -->
-  <aside class="lg:w-72 lg:shrink-0">
-    <nav aria-label="Guide sections" class="lg:sticky lg:top-6">
-      <p class="hidden lg:block text-sm font-semibold text-muted dark:text-muted-dark mb-3">In this guide</p>
-      <ol id="toc" class="flex lg:flex-col gap-1 overflow-x-auto lg:overflow-visible -mx-4 px-4 sm:mx-0 sm:px-0 pb-2 lg:pb-0 border-b lg:border-b-0 border-line dark:border-line-dark"></ol>
-    </nav>
-  </aside>
+  <!-- Search + table of contents / nav -->
+  <div class="lg:w-72 lg:shrink-0">
+    <div class="lg:sticky lg:top-6 lg:max-h-[calc(100vh-3rem)] lg:overflow-y-auto lg:p-1 lg:-m-1">
+
+      <form id="searchForm" role="search" class="mb-5">
+        <label for="searchInput" class="block text-sm font-semibold mb-1">Search this guide</label>
+        <input id="searchInput" type="search" autocomplete="off"
+          class="w-full rounded-lg border border-muted dark:border-muted-dark bg-surface dark:bg-surface-dark px-3 py-2 text-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-accent-dark">
+        <div id="searchStatus" role="status" class="mt-2 text-sm text-muted dark:text-muted-dark"></div>
+        <ul id="searchResults" class="mt-2 hidden max-h-72 overflow-y-auto rounded-lg border border-muted dark:border-muted-dark bg-surface dark:bg-surface-dark divide-y divide-line dark:divide-line-dark"></ul>
+      </form>
+
+      <nav aria-label="Guide sections">
+        <p class="hidden lg:block text-sm font-semibold text-muted dark:text-muted-dark mb-3">In this guide</p>
+        <ol id="toc" class="flex lg:flex-col gap-1 overflow-x-auto lg:overflow-visible -mx-4 px-4 sm:mx-0 sm:px-0 pb-2 lg:pb-0 border-b lg:border-b-0 border-line dark:border-line-dark"></ol>
+      </nav>
+    </div>
+  </div>
 
   <!-- Content -->
-  <main class="flex-1 min-w-0">
-    <article id="content" tabindex="-1" class="bg-surface dark:bg-surface-dark border border-line dark:border-line-dark rounded-xl px-5 sm:px-10 py-8 sm:py-10 min-h-[28rem] focus:outline-none"></article>
-    <div class="mt-5 flex items-center justify-between gap-3">
-      <button id="prevBtn" type="button" class="rounded-lg border border-line dark:border-line-dark bg-surface dark:bg-surface-dark px-4 py-2 text-sm font-medium transition-colors motion-reduce:transition-none hover:border-accent hover:text-accent dark:hover:border-accent-dark dark:hover:text-accent-dark focus:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-accent-dark disabled:opacity-40 disabled:pointer-events-none"></button>
-      <button id="nextBtn" type="button" class="rounded-lg bg-accent dark:bg-accent-dark text-page dark:text-page-dark px-4 py-2 text-sm font-semibold transition-opacity motion-reduce:transition-none hover:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-accent-dark focus-visible:ring-offset-2 focus-visible:ring-offset-page dark:focus-visible:ring-offset-page-dark disabled:opacity-40 disabled:pointer-events-none"></button>
+  <main id="main" class="flex-1 min-w-0">
+    <article id="content" class="bg-surface dark:bg-surface-dark border border-line dark:border-line-dark rounded-xl px-5 sm:px-10 py-8 sm:py-10 min-h-[28rem]"></article>
+    <div class="mt-5 flex items-center gap-3">
+      <a id="prevLink" href="#" class="hidden rounded-lg border border-muted dark:border-muted-dark bg-surface dark:bg-surface-dark px-4 py-2 text-sm font-medium transition-colors motion-reduce:transition-none hover:border-accent hover:text-accent dark:hover:border-accent-dark dark:hover:text-accent-dark focus:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-accent-dark"></a>
+      <a id="nextLink" href="#" class="hidden ml-auto rounded-lg bg-accent dark:bg-accent-dark text-page dark:text-page-dark px-4 py-2 text-sm font-semibold transition-opacity motion-reduce:transition-none hover:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-accent-dark focus-visible:ring-offset-2 focus-visible:ring-offset-page dark:focus-visible:ring-offset-page-dark"></a>
     </div>
   </main>
 </div>
 
 <!-- About dialog -->
-<dialog id="aboutDialog" class="rounded-xl bg-surface dark:bg-surface-dark text-ink dark:text-ink-dark border border-line dark:border-line-dark p-0 w-[min(32rem,calc(100%-2rem))] shadow-2xl backdrop:bg-black/60">
+<dialog id="aboutDialog" aria-labelledby="aboutTitle" class="rounded-xl bg-surface dark:bg-surface-dark text-ink dark:text-ink-dark border border-line dark:border-line-dark p-0 w-[min(32rem,calc(100%-2rem))] shadow-2xl backdrop:bg-black/60">
   <div class="p-6 sm:p-8">
-    <h2 class="font-serif text-2xl font-semibold">About this guide</h2>
+    <h2 id="aboutTitle" class="font-serif text-2xl font-semibold">About this guide</h2>
     <p class="mt-3 font-serif text-[1.05rem] leading-relaxed text-muted dark:text-muted-dark">Welcome to your first steps in learning to apply for a grant. We are glad you are here!</p>
     <p class="mt-3 font-serif text-[1.05rem] leading-relaxed text-muted dark:text-muted-dark">This document will provide the steps for a traditional grant documentation format.</p>
     <div class="mt-6 flex justify-end">
@@ -83,13 +98,15 @@
 
 <script>
   // ---- Helpers used inside the content below (each returns Tailwind-styled HTML) ----
-  const a = (u, t) => `<a href="${u}" target="_blank" rel="noopener noreferrer">${t || u}</a>`;
+  // External links open in a new tab, and say so for screen-reader users.
+  const a = (u, t) => `<a href="${u}" target="_blank" rel="noopener noreferrer">${t || u}<span class="sr-only"> (opens in a new tab)</span></a>`;
 
   const chip = t => `<span class="ml-2 inline-block rounded-full bg-soft dark:bg-soft-dark px-2.5 py-0.5 font-sans text-xs font-semibold text-accent dark:text-accent-dark whitespace-nowrap align-middle">${t}</span>`;
 
   const code = t => `<code class="rounded bg-soft dark:bg-soft-dark px-1.5 py-0.5 font-mono text-[0.9em]">${t}</code>`;
 
-  // Callout boxes for the Note / Important / Tip blocks in the source
+  // Callout boxes for the Note / Important / Tip blocks in the source.
+  // The type is written out as text, so meaning never depends on color alone.
   const calloutStyles = {
     Note:      ['border-accent dark:border-accent-dark bg-soft dark:bg-soft-dark', 'text-accent dark:text-accent-dark'],
     Tip:       ['border-muted dark:border-muted-dark bg-page dark:bg-page-dark', 'text-muted dark:text-muted-dark'],
@@ -98,15 +115,19 @@
   const callout = (type, body) => `
     <div class="mt-5 rounded-lg border-l-4 px-4 py-3 ${calloutStyles[type][0]}">
       <div class="font-sans text-xs font-bold uppercase tracking-wider ${calloutStyles[type][1]}">${type}</div>
-      <div class="mt-1">${body}</div>
+      <p class="!mt-1">${body}</p>
     </div>`;
 
-  // Tables (head = array of column titles, rows = array of arrays of cell HTML)
-  const table = (head, rows) => `
-    <div class="mt-5 overflow-x-auto rounded-lg border border-line dark:border-line-dark">
+  // Tables: a caption names the table, column headers use scope="col", the first cell
+  // of each row is a row header, and the scroll container can be reached with the keyboard.
+  const table = (caption, head, rows) => `
+    <div role="region" aria-label="${caption}" tabindex="0" class="mt-5 overflow-x-auto rounded-lg border border-line dark:border-line-dark focus:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-accent-dark">
       <table class="w-full text-left text-[0.95rem] leading-snug">
-        <thead class="bg-soft dark:bg-soft-dark"><tr>${head.map(h => `<th class="px-4 py-3 font-sans text-sm font-semibold">${h}</th>`).join('')}</tr></thead>
-        <tbody>${rows.map(r => `<tr class="border-t border-line dark:border-line-dark align-top">${r.map((c, i) => `<td class="px-4 py-3 ${i === 0 ? 'font-semibold min-w-[10rem]' : ''}">${c}</td>`).join('')}</tr>`).join('')}</tbody>
+        <caption class="sr-only">${caption}</caption>
+        <thead class="bg-soft dark:bg-soft-dark"><tr>${head.map(h => `<th scope="col" class="px-4 py-3 text-left font-sans text-sm font-semibold">${h}</th>`).join('')}</tr></thead>
+        <tbody>${rows.map(r => `<tr class="border-t border-line dark:border-line-dark align-top">${r.map((c, i) => i === 0
+          ? `<th scope="row" class="px-4 py-3 text-left font-semibold min-w-[10rem]">${c}</th>`
+          : `<td class="px-4 py-3">${c}</td>`).join('')}</tr>`).join('')}</tbody>
       </table>
     </div>`;
   const cellList = items => `<ul class="!mt-0 list-disc pl-5 [&>li]:!mt-1.5">${items.map(i => `<li>${i}</li>`).join('')}</ul>`;
@@ -115,7 +136,7 @@
   const sections = [
     {
       id: 'base-documentation',
-      title: 'Getting Started With Grant Writing',
+      title: 'Base Documentation',
       navHeadings: [],
       html: `
         <h3>Note to Reader:</h3>
@@ -125,7 +146,7 @@
     },
     {
       id: 'common-proposal-form',
-      title: 'See a Template: Common Proposal Form',
+      title: 'Common Proposal Form',
       html: `
         <p>The Common Proposal Form is available as a Word document: ${a('https://github.com/user-attachments/files/33913060/Common.Proposal.Form.Grant.Reference.doc', 'Common Proposal Form Grant Reference (.doc)')}</p>
         <p>This link downloads the Common Proposal Form Grant Reference, the reference copy of the form used in this guide. Open it in Word, or in any program that can read .doc files, and use it as a template for drafting your application.</p>
@@ -220,7 +241,7 @@
           <li>Competition scores from the past four years ${chip('Evaluation')}</li>
           <li>Two letters of recommendation from your peers ${chip('Evaluation')}</li>
         </ul>
-        <p>Website: ${a('https://www.dressagefoundation.org/grants-and-programs/apply/dressage_instructors/george-williams-fund.html')}</p>
+        <p>Website: ${a('https://www.dressagefoundation.org/grants-and-programs/apply/dressage_instructors/george-williams-fund.html', 'George Williams Fund application page')}</p>
         <hr>
 
         <h3>Repeating Themes</h3>
@@ -240,10 +261,10 @@
           <li><strong>Award Phase:</strong> the agency reviews the application and enters legal bindings</li>
           <li><strong>Post-award:</strong> work is started based on the dates in the applications, and there are check-ins with the agency that gave the money</li>
         </ul>
-        <p>Website: ${a('https://www.grants.gov/learn-grants/grants-101/the-grant-lifecycle')}</p>
+        <p>Website: ${a('https://www.grants.gov/learn-grants/grants-101/the-grant-lifecycle', 'Grants.gov: The Grant Lifecycle')}</p>
         <p>This defines a website and a PDF of an application. The longer application is filled out in the pre-award stage and then edited. This is a longer example, but elements are the same for Organization History, Description of Need, Activities, Evaluation, and Budget.</p>
-        <p>${a('https://www.bankofamerica.com/philanthropic/foundation/?fnId=300')}</p>
-        <p>Here is the PDF: ${a('https://www.bankofamerica.com/content/documents/philanthropic/Online_Application_Help.pdf')}</p>`
+        <p>${a('https://www.bankofamerica.com/philanthropic/foundation/?fnId=300', 'Bank of America Philanthropic Foundation')}</p>
+        <p>Here is the PDF: ${a('https://www.bankofamerica.com/content/documents/philanthropic/Online_Application_Help.pdf', 'Bank of America Online Application Help (PDF)')}</p>`
     },
     {
       id: 'pre-award-writing-section-1',
@@ -277,7 +298,7 @@
         <hr>
 
         <h3>Categorization of Requirements by Repeating Theme</h3>
-        ${table(['Grant Application Section', 'Required Application Items'], [
+        ${table('Application requirements grouped by repeating theme', ['Grant Application Section', 'Required Application Items'], [
           ['Organization History', cellList(['Summary of your dressage experience'])],
           ['Description of Need', cellList(['Proposed training plan and goals, including the plan to attend a formal instructor/trainer program'])],
           ['Activities', cellList(['Volunteer history'])],
@@ -315,7 +336,7 @@
         </ul>
         <hr>
         <p>Here we are condensing information to understand what the agency wants. I have separated Time, How grant cannot be used, Grant fund timeline, Notification of Change, Need of Grant. This section is about separating the information into sections to understand what the agency wants.</p>
-        ${table(['Category', 'Information &amp; Requirements'], [
+        ${table('Grant requirements grouped by category', ['Category', 'Information &amp; Requirements'], [
           ['Grant Fund Timeline/Reapplication Options', cellList([
             'Training funded by this grant can start no sooner than two months after the application deadline date.',
             'The recipients of these grants must use the funds within one year of the date of the award.',
@@ -348,9 +369,9 @@
         <p>Here is a tutorial of creating a chart in Excel: ${a('https://support.microsoft.com/en-us/excel/get-started/create-a-chart-from-start-to-finish', 'Microsoft Excel Tutorial - Create a chart from start to finish')}</p>
         <p>Here is a tutorial of creating a chart in Google Sheets: ${a('https://support.google.com/docs/answer/63824?hl=en&amp;co=GENIE.Platform%3DDesktop', 'Google Sheets Tutorial - Create a chart')}</p>
         <p>Here is the example in google sheets based on the grant: ${a('https://docs.google.com/spreadsheets/d/1W84Sox61FZc4dZ-5FGlmdB1WS_JDHA_SjlSPFldxjzE/edit?usp=sharing', 'Google Sheets Example Budget')}</p>
-        <p>Here is the generalized example in excel: ${a('https://txst-my.sharepoint.com/:x:/g/personal/cab280_txstate_edu/IQCjzI0pueVaTYrekw0w3KpyAbcQl1Akqd9wI8Tj4nOdQ1U?e=nGaZ0K')}</p>
-        <p>This is an example of the information formatted from grants.gov ${a('https://www.ojp.gov/funding/grants101/develop-budget')}</p>
-        ${table(['Budget Category', 'Required Details &amp; Information', 'Key Rules, Calculations, &amp; Restrictions'], [
+        <p>Here is the generalized example in excel: ${a('https://txst-my.sharepoint.com/:x:/g/personal/cab280_txstate_edu/IQCjzI0pueVaTYrekw0w3KpyAbcQl1Akqd9wI8Tj4nOdQ1U?e=nGaZ0K', 'Generalized budget example in Excel')}</p>
+        <p>This is an example of the information formatted from grants.gov ${a('https://www.ojp.gov/funding/grants101/develop-budget', 'Develop a Budget (OJP Grants 101)')}</p>
+        ${table('Budget categories with required details and rules', ['Budget Category', 'Required Details &amp; Information', 'Key Rules, Calculations, &amp; Restrictions'], [
           ['1. Personnel',
             cellList(['Position title', 'Employee name (if available)', 'Annual salary rate', 'Percentage of time devoted to the project']),
             cellList(['List <em>only</em> employees of the applicant organization.', 'All other grant-funded positions go under Consultants/Contracts.', 'Compensation must match similar work within your organization.'])],
@@ -388,16 +409,22 @@
   ];
 
   // ---- Setup ----
+  const BASE_TITLE = 'Non-Profit Grant Writing Guide';
   const slug = t => t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   const label = t => {
     const s = t.replace(/:$/, '');
     return s === s.toUpperCase() ? s.toLowerCase().replace(/\b\w/g, c => c.toUpperCase()) : s;
   };
 
-  // Work out which headings the sidebar links to under each section.
+  // "Leaf" text blocks (no other block inside them). Used for search and for jumping to a result.
+  const blockSel = 'h3, h4, p, li, td, th, blockquote';
+  const leafBlocks = root => [...root.querySelectorAll(blockSel)].filter(el => !el.querySelector(blockSel));
+
+  // Work out which headings the sidebar links to under each section, and index the text for search.
   // Default: every H3. A section can override this with navHeadings (a list of heading texts, H3 or H4).
   sections.forEach(s => {
     const doc = new DOMParser().parseFromString('<div>' + s.html + '</div>', 'text/html');
+    doc.querySelectorAll('.sr-only').forEach(n => n.remove());
     const heads = [...doc.querySelectorAll('h3, h4')];
     const wanted = s.navHeadings
       ? s.navHeadings.map(t => heads.find(h => h.textContent === t)).filter(Boolean)
@@ -406,60 +433,84 @@
       text: h.textContent,
       id: s.id + '-' + slug(h.textContent),
     }));
+    let context = '';
+    s.blocks = leafBlocks(doc).map(el => {
+      if (el.tagName === 'H3' || el.tagName === 'H4') context = el.textContent.trim();
+      return { text: el.textContent.replace(/\s+/g, ' ').trim(), heading: context };
+    });
   });
 
   const toc = document.getElementById('toc');
   const content = document.getElementById('content');
-  const prevBtn = document.getElementById('prevBtn');
-  const nextBtn = document.getElementById('nextBtn');
+  const prevLink = document.getElementById('prevLink');
+  const nextLink = document.getElementById('nextLink');
+  const skipLink = document.getElementById('skipLink');
+  const searchForm = document.getElementById('searchForm');
+  const searchInput = document.getElementById('searchInput');
+  const searchStatus = document.getElementById('searchStatus');
+  const searchResults = document.getElementById('searchResults');
   let current = 0;
 
-  // Tailwind class strings for the sidebar buttons
-  const navBase = 'w-full whitespace-nowrap lg:whitespace-normal text-left rounded-lg px-3 py-2 text-sm transition-colors motion-reduce:transition-none focus:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-accent-dark lg:border-l-4';
+  // Tailwind class strings for the sidebar links
+  const navBase = 'block w-full whitespace-nowrap lg:whitespace-normal text-left rounded-lg px-3 py-2 text-sm transition-colors motion-reduce:transition-none focus:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-accent-dark lg:border-l-4';
   const navIdle = 'text-muted dark:text-muted-dark hover:text-ink dark:hover:text-ink-dark hover:bg-soft dark:hover:bg-soft-dark lg:border-transparent';
   const navActive = 'bg-soft dark:bg-soft-dark text-ink dark:text-ink-dark font-semibold lg:border-accent dark:lg:border-accent-dark';
-  const subNav = 'w-full text-left rounded-md pl-6 pr-3 py-1.5 text-[0.8125rem] leading-snug text-muted dark:text-muted-dark transition-colors motion-reduce:transition-none hover:text-accent dark:hover:text-accent-dark focus:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-accent-dark';
+  const subNav = 'block w-full text-left rounded-md pl-6 pr-3 py-1.5 text-sm leading-snug text-muted dark:text-muted-dark transition-colors motion-reduce:transition-none hover:text-accent dark:hover:text-accent-dark focus:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-accent-dark';
+  const resultBtn = 'block w-full text-left px-3 py-2 text-sm leading-snug hover:bg-soft dark:hover:bg-soft-dark focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-accent dark:focus-visible:ring-accent-dark';
 
   // Tailwind class string for the article body (styles the tags inside each section)
   const bodyClasses = [
     'font-serif text-[1.075rem] leading-[1.75] max-w-[68ch] mt-2',
-    '[&_p]:mt-4',
+    '[&_p]:mt-4 [&_p]:scroll-mt-6',
     '[&_h3]:mt-10 [&_h3]:scroll-mt-6 [&_h3]:pb-2 [&_h3]:border-b [&_h3]:border-line dark:[&_h3]:border-line-dark [&_h3]:font-serif [&_h3]:text-2xl [&_h3]:font-semibold [&_h3]:leading-snug',
     '[&_h4]:mt-8 [&_h4]:scroll-mt-6 [&_h4]:font-sans [&_h4]:text-lg [&_h4]:font-semibold [&_h4]:leading-snug',
     '[&_ul]:mt-4 [&_ul]:pl-5 [&_ul]:list-disc',
     '[&_ol]:mt-4 [&_ol]:pl-6 [&_ol]:list-decimal',
-    '[&_li]:mt-3 [&_li]:pl-1 [&_li]:marker:text-accent dark:[&_li]:marker:text-accent-dark [&_li]:marker:font-semibold',
+    '[&_li]:mt-3 [&_li]:pl-1 [&_li]:scroll-mt-6 [&_li]:marker:text-accent dark:[&_li]:marker:text-accent-dark [&_li]:marker:font-semibold',
     '[&_li>p]:mt-2',
-    '[&_blockquote]:mt-3 [&_blockquote]:border-l-4 [&_blockquote]:border-accent dark:[&_blockquote]:border-accent-dark [&_blockquote]:pl-4 [&_blockquote]:text-muted dark:[&_blockquote]:text-muted-dark',
+    '[&_td]:scroll-mt-6 [&_th]:scroll-mt-6',
+    '[&_blockquote]:mt-3 [&_blockquote]:scroll-mt-6 [&_blockquote]:border-l-4 [&_blockquote]:border-accent dark:[&_blockquote]:border-accent-dark [&_blockquote]:pl-4 [&_blockquote]:text-muted dark:[&_blockquote]:text-muted-dark',
     '[&_hr]:my-8 [&_hr]:border-line dark:[&_hr]:border-line-dark',
     '[&_strong]:font-semibold',
     '[&_a]:text-accent dark:[&_a]:text-accent-dark [&_a]:underline [&_a]:underline-offset-2 [&_a]:break-words hover:[&_a]:opacity-80',
+    '[&_a]:rounded-sm [&_a]:focus-visible:outline [&_a]:focus-visible:outline-2 [&_a]:focus-visible:outline-offset-2 [&_a]:focus-visible:outline-accent dark:[&_a]:focus-visible:outline-accent-dark',
   ].join(' ');
+
+  const plainClick = e => e.button === 0 && !e.metaKey && !e.ctrlKey && !e.shiftKey && !e.altKey;
+  const scrollBehavior = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
 
   function renderToc() {
     toc.innerHTML = '';
     sections.forEach((s, i) => {
       const li = document.createElement('li');
       li.className = 'shrink-0 lg:shrink';
-      const b = document.createElement('button');
-      b.type = 'button';
-      b.textContent = label(s.title);
-      b.className = `${navBase} ${i === current ? navActive : navIdle}`;
-      if (i === current) b.setAttribute('aria-current', 'page');
-      b.addEventListener('click', () => show(i, { focus: true }));
-      li.appendChild(b);
+      const link = document.createElement('a');
+      link.href = '#' + s.id;
+      link.textContent = label(s.title);
+      link.className = `${navBase} ${i === current ? navActive : navIdle}`;
+      if (i === current) link.setAttribute('aria-current', 'page');
+      link.addEventListener('click', e => {
+        if (!plainClick(e)) return;
+        e.preventDefault();
+        show(i, { focus: true, history: 'push' });
+      });
+      li.appendChild(link);
 
       if (i === current && s.children.length) {
         const sub = document.createElement('ol');
         sub.className = 'hidden lg:flex flex-col gap-0.5 mt-1 mb-2';
         s.children.forEach(c => {
           const sli = document.createElement('li');
-          const sb = document.createElement('button');
-          sb.type = 'button';
-          sb.textContent = label(c.text);
-          sb.className = subNav;
-          sb.addEventListener('click', () => show(i, { anchor: c.id }));
-          sli.appendChild(sb);
+          const sl = document.createElement('a');
+          sl.href = '#' + c.id;
+          sl.textContent = label(c.text);
+          sl.className = subNav;
+          sl.addEventListener('click', e => {
+            if (!plainClick(e)) return;
+            e.preventDefault();
+            show(i, { anchor: c.id, history: 'push' });
+          });
+          sli.appendChild(sl);
           sub.appendChild(sli);
         });
         li.appendChild(sub);
@@ -468,13 +519,15 @@
     });
   }
 
+  // opts.history: 'push' | 'replace' | 'none'.  opts.focus: move focus to the section title.
+  // opts.anchor: id of a heading to jump to.  opts.block: index of a text block to jump to (search results).
   function show(i, opts = {}) {
     const s = sections[i];
     const changed = i !== current || !content.innerHTML;
     current = i;
     if (changed) {
       content.innerHTML = `
-        <h2 class="font-serif text-3xl sm:text-4xl font-semibold tracking-tight leading-tight">${s.title}</h2>
+        <h2 id="section-title" tabindex="-1" class="font-serif text-3xl sm:text-4xl font-semibold tracking-tight leading-tight focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent dark:focus-visible:outline-accent-dark">${s.title}</h2>
         <div class="${bodyClasses}">${s.html}</div>`;
       const heads = [...content.querySelectorAll('h3, h4')];
       s.children.forEach(c => {
@@ -483,37 +536,117 @@
       });
     }
     renderToc();
+
     const prev = sections[i - 1], next = sections[i + 1];
-    prevBtn.disabled = !prev;
-    nextBtn.disabled = !next;
-    prevBtn.textContent = prev ? `Back: ${label(prev.title)}` : 'Back';
-    nextBtn.textContent = next ? `Next: ${label(next.title)}` : 'Next';
-    history.replaceState(null, '', '#' + (opts.anchor || s.id));
-    if (opts.anchor) {
-      document.getElementById(opts.anchor).scrollIntoView({ block: 'start', behavior: 'smooth' });
+    prevLink.classList.toggle('hidden', !prev);
+    nextLink.classList.toggle('hidden', !next);
+    if (prev) { prevLink.textContent = `Back: ${label(prev.title)}`; prevLink.href = '#' + prev.id; }
+    if (next) { nextLink.textContent = `Next: ${label(next.title)}`; nextLink.href = '#' + next.id; }
+
+    document.title = `${label(s.title)} – ${BASE_TITLE}`;
+
+    const hash = '#' + (opts.anchor || s.id);
+    if (opts.history === 'push' && location.hash !== hash) history.pushState(null, '', hash);
+    else if (opts.history === 'replace') history.replaceState(null, '', hash);
+
+    let target = null;
+    if (opts.anchor) target = document.getElementById(opts.anchor);
+    else if (opts.block != null) target = leafBlocks(content)[opts.block] || null;
+
+    if (target) {
+      target.setAttribute('tabindex', '-1');
+      target.scrollIntoView({ block: 'start', behavior: scrollBehavior() });
+      target.focus({ preventScroll: true });
     } else if (opts.focus) {
-      content.focus({ preventScroll: true });
-      content.scrollIntoView({ block: 'start', behavior: 'smooth' });
+      content.scrollIntoView({ block: 'start', behavior: scrollBehavior() });
+      document.getElementById('section-title').focus({ preventScroll: true });
     }
   }
 
-  prevBtn.addEventListener('click', () => show(current - 1, { focus: true }));
-  nextBtn.addEventListener('click', () => show(current + 1, { focus: true }));
+  // Back and Next are links, so they work with the browser's own link controls too
+  [prevLink, nextLink].forEach((link, k) => link.addEventListener('click', e => {
+    if (!plainClick(e)) return;
+    e.preventDefault();
+    show(current + (k === 0 ? -1 : 1), { focus: true, history: 'push' });
+  }));
 
-  // Open the section named in the URL hash (a section id or one of its linked heading ids)
-  const hash = location.hash.slice(1);
-  let startIndex = sections.findIndex(s => s.id === hash);
-  let startAnchor = null;
-  if (startIndex < 0) {
-    startIndex = sections.findIndex(s => s.children.some(c => c.id === hash));
-    if (startIndex >= 0) startAnchor = hash;
+  // Skip link: move focus to the section title
+  skipLink.addEventListener('click', e => {
+    e.preventDefault();
+    document.getElementById('section-title').focus();
+  });
+
+  // ---- Search: a second way to find content besides the sidebar ----
+  function runSearch() {
+    const q = searchInput.value.trim();
+    searchResults.innerHTML = '';
+    searchResults.classList.add('hidden');
+    if (q.length < 2) { searchStatus.textContent = ''; return; }
+    const needle = q.toLowerCase();
+    const hits = [];
+    sections.forEach((s, i) => s.blocks.forEach((b, k) => {
+      if (b.text.toLowerCase().includes(needle)) hits.push({ i, k, b });
+    }));
+    if (!hits.length) { searchStatus.textContent = `No results for “${q}”.`; return; }
+    const shown = hits.slice(0, 10);
+    searchStatus.textContent = hits.length > shown.length
+      ? `${hits.length} results. Showing the first ${shown.length}.`
+      : `${hits.length} result${hits.length === 1 ? '' : 's'}.`;
+    shown.forEach(({ i, k, b }) => {
+      const li = document.createElement('li');
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = resultBtn;
+      const where = document.createElement('span');
+      where.className = 'block text-xs font-semibold text-accent dark:text-accent-dark';
+      const sectionLabel = label(sections[i].title);
+      const headingLabel = b.heading ? label(b.heading) : '';
+      where.textContent = headingLabel && headingLabel !== sectionLabel ? `${sectionLabel} › ${headingLabel}` : sectionLabel;
+      const snippet = document.createElement('span');
+      snippet.className = 'block mt-0.5';
+      const idx = b.text.toLowerCase().indexOf(needle);
+      const start = Math.max(0, idx - 40);
+      const end = Math.min(b.text.length, idx + needle.length + 60);
+      snippet.append((start > 0 ? '…' : '') + b.text.slice(start, idx));
+      const mark = document.createElement('mark');
+      mark.className = 'rounded-sm bg-warn-soft dark:bg-warn-soft-dark text-ink dark:text-ink-dark';
+      mark.textContent = b.text.slice(idx, idx + needle.length);
+      snippet.append(mark);
+      snippet.append(b.text.slice(idx + needle.length, end) + (end < b.text.length ? '…' : ''));
+      btn.append(where, snippet);
+      btn.addEventListener('click', () => show(i, { block: k, history: 'push' }));
+      li.appendChild(btn);
+      searchResults.appendChild(li);
+    });
+    searchResults.classList.remove('hidden');
   }
-  show(startIndex >= 0 ? startIndex : 0, startAnchor ? { anchor: startAnchor } : {});
+  searchForm.addEventListener('submit', e => e.preventDefault());
+  searchInput.addEventListener('input', runSearch);
 
+  // ---- Routing: open the section named in the URL hash (a section id or one of its heading ids) ----
+  function resolveHash(hash) {
+    let i = sections.findIndex(s => s.id === hash);
+    let anchor = null;
+    if (i < 0) {
+      i = sections.findIndex(s => s.children.some(c => c.id === hash));
+      if (i >= 0) anchor = hash;
+    }
+    return { i: i >= 0 ? i : 0, anchor };
+  }
+  const first = resolveHash(location.hash.slice(1));
+  show(first.i, { anchor: first.anchor, history: 'replace' });
+  window.addEventListener('popstate', () => {
+    const r = resolveHash(location.hash.slice(1));
+    show(r.i, { anchor: r.anchor, history: 'none' });
+  });
+
+  // ---- About dialog: focus returns to the button that opened it ----
   const dlg = document.getElementById('aboutDialog');
-  document.getElementById('aboutBtn').addEventListener('click', () => dlg.showModal());
+  const aboutBtn = document.getElementById('aboutBtn');
+  aboutBtn.addEventListener('click', () => dlg.showModal());
   document.getElementById('closeAbout').addEventListener('click', () => dlg.close());
   dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+  dlg.addEventListener('close', () => aboutBtn.focus());
 </script>
 </body>
 </html>
