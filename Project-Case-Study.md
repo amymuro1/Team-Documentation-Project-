@@ -1,7 +1,7 @@
 # Project Case Study
 
 ## Project Context CARSON
-What is the project about, and what background information, etc.
+The Non-Profit Grant Writing Guide was created as an introduction for non-profit organizations that may be in the process of applying for grants but lack the specialized assistance of a hired grant writer. Based on a target non-profit, Flying B Animal Rescue and Sanctuary of Ennis, TX, we created a model in which an organization could reasonably read through our guide and complete a grant application. Building upon the “Common Proposal Form” introduced to one of our team members during a previous grant writing class, we sought to address the need for clarification and guidance in completing the methodical grant process. We hope to expand access to the grant application process so that more organizations have the opportunity to acquire funding for their causes. 
 ## User Need JAMES
 Our intended audience was people interested in grant writing, including people who are new to grant writing as well as those with experience. This audience required a guide that was written to suit varying levels of experience that is accessible to novices. 
 ## Research Methods CHLOE
@@ -28,4 +28,7 @@ Our main revisions were to eliminate confusion that was mentioned in our usabili
 * Ensure that on mobile devices the navigation bar presents the same components as the navigation bar on the website.
 * Final checks on working links, PDF files, link redirections, and mobile-friendly attributes.  
 ## Final Deliverables CARSON
-Showcase the polished and finished document our team produced, as well as explain how it fulfills the project goals. Closing it all in. 
+https://amymuro1.github.io/Team-Documentation-Project-/
+
+Our guide is a culmination of the efforts of a professional project team to create a much-needed resource. By creating the webpage, we were able to utilize a GitHub workflow and collaborate to create a live editorial process. Using Markdown coding language, understanding information architecture, and developing an agile workflow allowed our team to ground our work in the foundational elements of technical communication. We examined a user need, tested the viability of a solution, and worked through iterative testing to ensure the best results for our users. The Non-Profit Grant Writing guide is a culmination of the diversity of skillsets that our team brought to the table, including editing, coding, user experience testing, usability testing, project management, and needs analysis. The webpage creates an easily navigable resource for newcomers to access crucial grant writing information with the perspective of grant writers and learners alike, as our team is of varying experience. 
+
