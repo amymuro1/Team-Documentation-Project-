@@ -18,7 +18,11 @@ This document outlines the individual contributions, responsibilities, and deliv
 * Provided "Common Proposal Form" for project reference.
 
 ### James
-* 
+* Directed website's graphic design.
+* Created website wireframe.
+* Coded website in collaboration with AI tools.
+* Created and implemented usability test.
+* Implemented accessibility and content revisions to website.
 
 ### Chloe
 
