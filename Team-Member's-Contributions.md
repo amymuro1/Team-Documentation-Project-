@@ -10,7 +10,10 @@ This document outlines the individual contributions, responsibilities, and deliv
 * Gave general support to other team members when needed. 
 
 ### Carson
-* 
+* Guided and scheduled weekly team meetings via Zoom.
+* Coded in GitHub and provided general assistance with Markdown language.
+* Reviewed team material for clarity and submission readiness.
+* Supported team communication across channels, both with course and interpersonal communication.
 
 ### James
 * 
