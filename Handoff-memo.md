@@ -32,7 +32,7 @@
 * **Live Deployment:** `https://amymuro1.github.io/Team-Documentation-Project-/`
 
 ### Documentation & Research Assets (JAMES)
-* **Project Documentation:** You can state or link that the `README.md` contains the repository structure, local preview steps, and content editing guidelines. Expand on how we created our documentation and what we have within GitHub. I would link main branches too preferably. 
+* **Project Documentation:** You can state or link that the `README.md` contains the repository structure, local preview steps, and content editing guidelines. Expand on how we created our documentation and what we have within GitHub. I'd also link the main branches, preferably. 
 * **Usability Study & Style Resources:** Link to usability testing report, include feedback from participants and any other resources.
 
 ---
