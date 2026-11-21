@@ -11,16 +11,21 @@
 ---
 
 ## 1. Purpose of Transfer (CARSON)
-* **Reason for Handoff:** [You can mention the completion of the academic documentation and web development phase or the end of the semester term.]
-* **Recipient:** [Name of Client / Organization / Maintaining Team], who will assume administrative control over content updates, repository management, and live hosting.
-* **Effective Date:** [Date of Official Transfer]
+**Reason for Handoff:** The Non-Profit Grant Writing Guide has been adapted to the non-profit client for official use; the resource is open for sharing and has been completed by the initial project team.
+
+**Recipient:** Carolyn Taylor, Executive Director, Flying B Animal Rescue and Sanctuary, Ennis, TX
+
+**Effective Date:** 11/22/2026
 
 ---
 
 ## 2. Project Overview (CARSON)
-* The Non-Profit Grant Writing Guide was created as an introduction for non-profit organizations that may be in the process of applying for grants but lack the specialized assistance of a hired grant writer. Based on a target non-profit, Flying B Animal Rescue and Sanctuary of Ennis, TX, we created a model in which an organization could reasonably read through our guide and complete a grant application. Building upon the “Common Proposal Form” introduced to one of our team members during a previous grant writing class, we sought to address the need for clarification and guidance in completing the methodical grant process. We hope to expand access to the grant application process so that more organizations have the opportunity to acquire funding for their causes.
-* **Objectives:**
-* **Current Status:** 
+
+The Non-Profit Grant Writing Guide was created as an introduction for non-profit organizations that may be in the process of applying for grants but lack the specialized assistance of a hired grant writer. Based on a target non-profit, Flying B Animal Rescue and Sanctuary of Ennis, TX, we created a model in which an organization could reasonably read through our guide and complete a grant application. Building upon the “Common Proposal Form” introduced to one of our team members during a previous grant writing class, we sought to address the need for clarification and guidance in completing the methodical grant process. We hope to expand access to the grant application process so that more organizations have the opportunity to acquire funding for their causes.
+  
+Our guide is a culmination of the efforts of a professional project team to create a much-needed resource. By creating the webpage, we were able to utilize a GitHub workflow and collaborate to create a live editorial process. Using Markdown coding language, understanding information architecture, and developing an agile workflow allowed our team to ground our work in the foundational elements of technical communication. We examined a user need, tested the viability of a solution, and worked through iterative testing to ensure the best results for our users. The Non-Profit Grant Writing guide is a culmination of the diversity of skill sets that our team brought to the table, including editing, coding, user experience testing, usability testing, project management, and needs analysis. The webpage creates an easily navigable resource for newcomers to access crucial grant writing information with the perspective of grant writers and learners alike, as our team is of varying experience.
+
+The status of the guide is completed, with user access ready for launch. This resource can be enhanced as needed given feedabck from users as the end product becomes available.
 
 ---
 
