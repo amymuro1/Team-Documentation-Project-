@@ -38,8 +38,19 @@
 ---
 
 ## 5. Overview of Edits & Usability Revisions (CHLOE)
-* **Overview:** [Provide a summary of our edits and revisions; sorry it's repetitive, I know ]
-* * **Major Structural & Content Updates:** [List our major changes and updates; make sure to note the accessibility changes that James did last week from my checklist]
+* **Overview:**
+We streamlined our website and enhanced the user experience by tweaking the layout so visitors can find key information faster and scan content quicker. We updated the budget section and embedded the common proposal form to include images in a separate tab. To improve accessibility and structure, we changed headings to more descriptive ones, linked directly to the referenced document rather than using the encoded version, and updated our guidance structure by fixing redirection issues within the sidebar region. Additionally, we ensured that the mobile navigation bar displays the same components as the main website and concluded our updates with final checks on working links, PDF files, link redirections, and mobile-friendly attributes.
+
+* * **Major Structural & Content Updates:**
+  
+* We embedded the common proposal form to include images in a separate tab. 
+* We ensured that the navigation bar on mobile devices shows the same components as the website navigation bar.
+* We did Final checks on working links, PDF files, link redirections, and mobile-friendly attributes.
+* We linked the referenced document rather than using the encoded version.
+* We updated the structure of our guidance by fixing redirection issues within the sidebar region.
+* We changed headings to descriptive headings.
+* We updated the budget section of our website.
+* We tweaked our website layout so that users can find key information faster, and help users scan information quicker.
 ---
 
 ## 6. Recommendations (AMY)
