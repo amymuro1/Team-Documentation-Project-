@@ -18,7 +18,7 @@
 ---
 
 ## 2. Project Overview (CARSON)
-* **Summary:**
+* The Non-Profit Grant Writing Guide was created as an introduction for non-profit organizations that may be in the process of applying for grants but lack the specialized assistance of a hired grant writer. Based on a target non-profit, Flying B Animal Rescue and Sanctuary of Ennis, TX, we created a model in which an organization could reasonably read through our guide and complete a grant application. Building upon the “Common Proposal Form” introduced to one of our team members during a previous grant writing class, we sought to address the need for clarification and guidance in completing the methodical grant process. We hope to expand access to the grant application process so that more organizations have the opportunity to acquire funding for their causes.
 * **Objectives:**
 * **Current Status:** 
 
