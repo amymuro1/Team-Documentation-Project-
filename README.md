@@ -8,7 +8,7 @@ This repository was formed to organize the workflow process for Documentation Pr
 
 **Design-system-page-template** – contains our design templates,  image linking rules, and accessibility checklist
 
-**Project-Status-Report** – contains a project status report dated Oct 31, 2026.
+**Project-Status-Report** – contains a project status report dated Oct 31, 2026
 
 **Team-Audience-and-Task-Research-Plan** – contains our audience and task research plan
 
