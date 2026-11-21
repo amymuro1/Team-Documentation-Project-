@@ -51,6 +51,14 @@
 ---
 
 ## 7. Support & Contact Information (CHLOE)
-* **Transition Support Window:** Available through [Date, e.g., end of the Fall 2026 semester] for questions regarding repository setup, HTML/CSS structure, or usability study findings.
-* **Primary Contact:** [List Carson here]
-* **Team Contributors:** [List teammate names and emails/GitHub handles, if applicable]
+* **Transition Support Window:** Available through 12/03/2026  for questions regarding repository setup, HTML/CSS structure, or usability study findings.
+* **Primary Contact:** Carson
+* **Team Contributors:**
+  
+  Amy Muro Email: amymuro@txstate.edu  GitHub Handle: amymuro1
+
+  Carson Wright Email: wct36@txstate.edu GitHub Handle: carson-writes
+
+  Jason Rowland Email: ztq17@txstate.edu GitHub Handle: jtrowland97
+
+  Chloe Brown Email: cab280@txstate.edu GitHub Handle:  Chloe-A-B
