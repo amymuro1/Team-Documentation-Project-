@@ -32,8 +32,8 @@
 * **Live Deployment:** `https://amymuro1.github.io/Team-Documentation-Project-/`
 
 ## 4. Documentation & Research Assets (JAMES)
-* **Project Documentation:** Please refer to our [ReadMe](https://github.com/amymuro1/Team-Documentation-Project-/blob/Final-Team-Project-Package/README.md) for information about the branches in this repository and how this repository was created. 
-* **Usability Study & Style Resources:** Our usability test report can be found [here] (https://github.com/amymuro1/Team-Documentation-Project-/blob/usability-test/usability-test-report.md) and the usability survey is linked [here](https://forms.gle/DKS76YN6BELf3JAd8).
+* **Project Documentation:** Please refer to our [ReadMe](https://github.com/amymuro1/Team-Documentation-Project-/blob/main/README.md) for information about the branches in this repository and how this repository was created. 
+* **Usability Study & Style Resources:** Our usability test report can be found [here] (https://github.com/amymuro1/Team-Documentation-Project-/blob/usability-test/usability-test-report.md) and the usability survey is linked [here] (https://forms.gle/DKS76YN6BELf3JAd8).
 
 ---
 
