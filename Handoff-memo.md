@@ -32,8 +32,8 @@
 * **Live Deployment:** `https://amymuro1.github.io/Team-Documentation-Project-/`
 
 ## 4. Documentation & Research Assets (JAMES)
-* **Project Documentation:** [You can state or link that the `README.md` contains the repository structure, local preview steps, and content editing guidelines. Expand on how we created our documentation and what we have within GitHub. I'd also link the main branches, preferably. You could add a small tree or demonstration of our GitHub sections, or just fully explain each branch and what was in it.]
-* **Usability Study & Style Resources:** [Link to the usability testing report, talk about the survey, include feedback from participants, and any other resources.]
+* **Project Documentation:** Please refer to our [ReadMe](https://github.com/amymuro1/Team-Documentation-Project-/blob/Final-Team-Project-Package/README.md) for information about the branches in this repository and how this repository was created. 
+* **Usability Study & Style Resources:** Our usability test report can be found [here] (https://github.com/amymuro1/Team-Documentation-Project-/blob/usability-test/usability-test-report.md) and the usability survey is linked [here](https://forms.gle/DKS76YN6BELf3JAd8).
 
 ---
 
