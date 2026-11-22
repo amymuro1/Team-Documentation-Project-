@@ -42,7 +42,7 @@ The status of the guide is completed, with user access ready for launch. This re
 
 ---
 
-## 5. Overview of Edits & Usability Revisions (CHLOE)
+## 5. Overview of Edits & Usability Revisions 
 * **Overview:**
 We streamlined our website and enhanced the user experience by tweaking the layout so visitors can find key information faster and scan content quicker. We updated the budget section and embedded the common proposal form to include images in a separate tab. To improve accessibility and structure, we changed headings to more descriptive ones, linked directly to the referenced document rather than using the encoded version, and updated our guidance structure by fixing redirection issues within the sidebar region. Additionally, we ensured that the mobile navigation bar displays the same components as the main website and concluded our updates with final checks on working links, PDF files, link redirections, and mobile-friendly attributes.
 
@@ -66,7 +66,7 @@ We streamlined our website and enhanced the user experience by tweaking the layo
   * [I will add any remaining usability feedback items, mobile responsiveness tweaks, or additional grant templates/resources that were out of scope for this release.]
 ---
 
-## 7. Support & Contact Information (CHLOE)
+## 7. Support & Contact Information 
 * **Transition Support Window:** Available through 12/03/2026  for questions regarding repository setup, HTML/CSS structure, or usability study findings.
 * **Primary Contact:** Carson
 * **Team Contributors:**
