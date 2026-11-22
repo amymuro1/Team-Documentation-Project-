@@ -32,7 +32,7 @@ The status of the guide is completed, with user access ready for launch. This re
 ## 3. Scope of Transfer 
 ### Repository & Codebase
 * **GitHub Repository:** `https://github.com/amymuro1/Team-Documentation-Project-`
-* **Primary Languages:** HTML5, CSS+
+* **Primary Languages:** HTML5, CSS
 * **Branch Structure:** `main` serves as the primary production branch deployed directly to GitHub Pages.
 * **Live Deployment:** `https://amymuro1.github.io/Team-Documentation-Project-/`
 
