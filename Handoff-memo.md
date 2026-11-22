@@ -29,14 +29,14 @@ The status of the guide is completed, with user access ready for launch. This re
 
 ---
 
-## 3. Scope of Transfer (What Is Being Transferred) (AMY)
+## 3. Scope of Transfer 
 ### Repository & Codebase
 * **GitHub Repository:** `https://github.com/amymuro1/Team-Documentation-Project-`
 * **Primary Languages:** HTML5, CSS+
 * **Branch Structure:** `main` serves as the primary production branch deployed directly to GitHub Pages.
 * **Live Deployment:** `https://amymuro1.github.io/Team-Documentation-Project-/`
 
-## 4. Documentation & Research Assets (JAMES)
+## 4. Documentation & Research Assets 
 * **Project Documentation:** Please refer to our [ReadMe](https://github.com/amymuro1/Team-Documentation-Project-/blob/main/README.md) for information about the branches in this repository and how this repository was created and organized. 
 * **Usability Study & Style Resources:** Our usability test report can be found [here](https://github.com/amymuro1/Team-Documentation-Project-/blob/usability-test/usability-test-report.md) and the usability survey is linked [here](https://forms.gle/DKS76YN6BELf3JAd8). Our style resources and design templates are found [here](https://github.com/amymuro1/Team-Documentation-Project-/tree/design-system-page-template).
 
@@ -58,12 +58,13 @@ We streamlined our website and enhanced the user experience by tweaking the layo
 * We tweaked our website layout so that users can find key information faster, and help users scan information quicker.
 ---
 
-## 6. Recommendations (AMY)
+## 6. Recommendations 
 * **Ongoing Maintenance:**
+To ensure that the website continues to function properly with it's components please make sure that the following is completed.
   * Audit external grant database links periodically to prevent broken URLs within the website.
   * Run an accessibility check whenever adding new sections or media to maintain WCAG compliance of the website. 
 * **Known Limitations & Future Considerations:**
-  * [I will add any remaining usability feedback items, mobile responsiveness tweaks, or additional grant templates/resources that were out of scope for this release.]
+  * We ensured that the website was mobile responsiveness. If you consider adding new tabs, or resources please ensure that you update the code to ensure that the new sections work in a mobile setting.
 ---
 
 ## 7. Support & Contact Information 
@@ -71,7 +72,7 @@ We streamlined our website and enhanced the user experience by tweaking the layo
 * **Primary Contact:** Carson
 * **Team Contributors:**
   
-  Amy Muro Email: amymuro@txstate.edu  GitHub Handle: amymuro1
+  Amy Muro Email: oul4@txstate.edu  GitHub Handle: amymuro1
 
   Carson Wright Email: wct36@txstate.edu GitHub Handle: carson-writes
 
