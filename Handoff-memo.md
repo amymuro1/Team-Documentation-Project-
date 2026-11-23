@@ -6,7 +6,7 @@
 
 **DATE:** November 22, 2026  
 
-**SUBJECT:** Project Handoff – Nonprofit Grant Funding Application Guide  
+**SUBJECT:** Project Handoff – Non-Profit Grant Funding Application Guide  
 
 ---
 
