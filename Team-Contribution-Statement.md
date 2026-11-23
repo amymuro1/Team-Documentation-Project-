@@ -5,4 +5,4 @@ Our team collaborated across all phases of planning, design, development, and re
 *  **James** led the website's visual design, front-end development and user-testing. He directed the main components of our website graphics, wireframe and overall design. He coded the website in collaboration with AI tools, and created the usability testing. He also maintained the website based on the revision plan, and accessibility revisions at the end of the project. 
 *  **Carson** facilitated main coordination and technical support. He aided in teaching GitHub components, monitored and recorded Zoom meetings, provided the Common Proposal Form for project reference, assisted with GitHub coding and reviewed all deliverables for clarity before submission. He also helped and guided through questions and confusion within the team through text. 
 
-Aside from our main contributions all of us provided general support to each other when needed, we all contributed to the GitHub repository and its' components. 
+Aside from our main contributions, all of us provided general support to each other when needed. We all contributed to the GitHub repository and its components. 
